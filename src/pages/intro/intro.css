@@ -1,0 +1,30 @@
+.intro {
+    height: calc(100vh - var(--navbar-height));
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: var(--color-black);
+    width: 100vw;
+    align-self: center; 
+    flex-direction: row;
+}
+
+.intro-text {
+  color: white;
+  text-align: center;
+  width: 35vw;
+}
+
+.intro-logo {
+  width: 65px;
+  margin-left: 17px;
+  margin-right: 17px;
+  height: 65px;
+}
+
+.intro-photo {
+  color: white;
+  border-radius: 80px;
+  width: 35vw;
+
+}

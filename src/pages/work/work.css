@@ -1,0 +1,48 @@
+.work {
+    height: calc(100vh - var(--navbar-height));
+    display: flex;
+    justify-content: space-around;
+    align-items:flex-start;
+    flex-direction:  column;
+    background-color: black;
+    width: 100vw;
+    padding: 3vw;
+}
+.work-overHead {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    flex-direction:  row;
+}
+
+.work-row {
+    flex: 1;
+    width: 100vw;
+    display: flex;
+    justify-content: space-around;
+    text-align: center;
+    align-items: center;
+    flex-direction: row;
+}
+
+.work-logo {
+    height:60px
+}
+
+.job {
+    cursor: pointer;
+}
+.job-image {
+    width: 370px;
+}
+
+.job-image-amazon {
+    width: 250px;
+}
+.work-header {
+    color: white;
+    margin-left: 20px;
+}
+.white {
+    color: white;
+}

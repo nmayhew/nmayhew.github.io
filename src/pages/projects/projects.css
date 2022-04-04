@@ -1,0 +1,48 @@
+.project {
+    height: calc(100vh - var(--navbar-height));
+    display: flex;
+    justify-content: space-around;
+    align-items:flex-start;
+    flex-direction:  column;
+    background-color: black;
+    width: 100vw;
+    padding: 3vw;
+}
+.project-overHead {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    flex-direction:  row;
+}
+
+.project-row {
+    flex: 1;
+    width: 100vw;
+    display: flex;
+    justify-content: space-around;
+    text-align: center;
+    align-items: center;
+    flex-direction: row;
+}
+
+.project-logo {
+    height:60px
+}
+
+.project-image {
+    max-height: 100px;
+    max-width: 190px;
+}
+
+.project-image-smart {
+    width: 100px;
+    border-radius: 30px;
+}
+
+.project-header {
+    color: white;
+    margin-left: 20px;
+}
+.white {
+    color: white;
+}

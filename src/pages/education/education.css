@@ -1,0 +1,42 @@
+.education {
+    height: calc(100vh - var(--navbar-height));
+    display: flex;
+    justify-content: space-between;
+    align-items:flex-start;
+    flex-direction:  column;
+    background-color: black;
+    width: 100vw;
+    padding: 3vw;
+}
+.education-overHead {
+    display: flex;
+    justify-content: flex-start;
+    align-items:center;
+    flex-direction:  row;
+}
+
+.education-row {
+
+    width: 100vw;
+    display: flex;
+    justify-content: space-around;
+    text-align: center;
+    align-items: center;
+    flex-direction: row;
+}
+
+.school {
+    cursor: pointer;
+    border-width: 2px;
+}
+.school-image {
+    height: 210px;
+}
+.education-header {
+    color: white;
+    margin-left: 20px;
+}
+.white {
+    color: white;
+}
+

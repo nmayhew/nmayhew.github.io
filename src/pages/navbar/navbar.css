@@ -1,0 +1,36 @@
+.navbar {
+    height: var(--navbar-height);
+    width: 100vw;
+    background-color: var(--color-black);
+    position: fixed;
+    display: flex;
+  }
+  
+
+  .navbar-logo {
+    height: 100%;
+    padding: 0 120px 0 40px;
+  }
+  
+  .navbar-links {
+    display: flex;
+    width: 100%;
+    justify-content: space-around;
+    align-items: center;
+    margin-right: 40px;
+  }
+  
+  .navbar-link {
+    color: white;
+    cursor: pointer;
+  }
+  
+  .navbar-link:hover {
+    color: var(--color-orange);
+  }
+  
+ 
+  .navbar-active {
+    color: var(--color-orange) !important;
+  }
+  
