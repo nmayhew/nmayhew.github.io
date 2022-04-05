@@ -46,6 +46,7 @@ function Navbar() {
           className="navbar-link"
           activeClass="navbar-active"
           smooth
+          offset={-80}
           spy={true}
           isDynamic={true}
         >
@@ -57,7 +58,7 @@ function Navbar() {
           activeClass="navbar-active"
           smooth
           spy={true}
-          offset={-160}
+          offset={-80}
           isDynamic={true}
         >
           <p className="navbar-text">Programming</p>
