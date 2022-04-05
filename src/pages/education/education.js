@@ -10,9 +10,9 @@ const CamHeader = (
 );
 const Camcontent = (
     <div>
-      <p>Cambridge University How long can this go, and in particular will it move the wrong way.
+      <p>From October 2022 to June 2023, I'll be studying an MPhil in Management at the Judge Business School.
       </p>
-      <p>Content...</p>
+      <p>I'll be a member of Peterhouse College, and studying Accounting, Finance and Organisational Behaviour.</p>
     </div>
   );
   const StanHeader = (
@@ -20,9 +20,11 @@ const Camcontent = (
     );
 const Stancontent = (
     <div>
-      <p>Stanford University How long can this go, and in particular will it move the wrong way.
-      Comomasdfkja;lsdkjf;lakjsd;flajksd;lfkajsd;lfkjas;dlkfja;sldkjf;lk</p>
-      <p>Content...</p>
+      <p>I'm graduating Stanford in June with a 4.05 GPA, majoring in CS and concentrating in Human Computer Interaction. </p>
+      <p>During my time here, I've captain Men's Varsity Rowing and qualified for the Engineering Academic Honor Society. </p>
+      <p></p>
+      <p>Coursework includes Algorithmic Design, Product Design, Data Structures, Social Psychology and OOP.</p>
+      <p></p>
     </div>
 );
 
@@ -31,9 +33,9 @@ const LatyHeader = (
     );
 const Latycontent = (
     <div>
-      <p>Latymer Upper Schol. How long can this go, and in particular will it move the wrong way.
-      Comomasdfkja;lsdkjf;lakjsd;flajksd;lfkajsd;lfkjas;dlkfja;sldkjf;lk</p>
-      <p>Content...</p>
+      <p>I graduated Latymer in 2017 with 3 A*s in Maths, Physics and Computer Science.</p>
+      <p>I was boat house captain of Latymer Rowing and got 8 A*s and 2As in GCSEs.</p>
+      <p>Finally, I had perfect scores in the ACT and SAT Subject Tests (Maths and Physics).</p>
     </div>
   );
 

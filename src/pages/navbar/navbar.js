@@ -7,7 +7,7 @@ function Navbar() {
   return (
     <div className="navbar">
       <div className="navbar-links">
-      <Avatar size={80} src={me} alt="Logo" shape="circle"/>
+      <Avatar size={60} src={me} alt="Logo" shape="circle"/>
         <Link
           to="intro"
           className="navbar-link"
