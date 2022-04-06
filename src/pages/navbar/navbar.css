@@ -20,9 +20,13 @@
     margin-right: 40px;
   }
   
+  .navbar-text {
+    font-family: 'Lucida Sans';
+  }
+
   .navbar-link {
     color: white;
-    cursor: pointer;
+    cursor: pointer 
   }
   
   .navbar-link:hover {
