@@ -7,7 +7,7 @@ import SmartRow from '../../assets/projects/SmartRow.png';
 import projectLogo from '../../assets/projects/projects.png'
 import React, { useState } from 'react';
 import { Modal } from 'antd';
-
+import { Animator, ScrollContainer, ScrollPage, batch, Fade, Move, Zoom} from "react-scroll-motion";
 
 function Work() {
   const [isModalVisible, setIsModalVisible] = useState(false);
@@ -55,6 +55,8 @@ function Work() {
 
 
   return (
+    <ScrollContainer snap="none">
+    <ScrollPage page={3}>
     <div id="project" className="project">
     
         <div className="project-overHead">
@@ -66,23 +68,27 @@ function Work() {
 
         <div className="project-row">
             <div className="job" onClick={showModal}>
+            <Animator animation={batch(Fade(), Move(-400, -100, -400, -300), Zoom(0.1,1))}>
             <img src={MB} alt="Mercedes-Benz-Logo" className="project-image"></img> 
+            </Animator>
             <p className="white">
-                Vahana 
+              
             </p>
             </div>
         
             <Modal title={<h1>Vahana - Mercedes-Benz</h1>} width={700} visible={isModalVisible} footer={null} onCancel={handleCancel} > 
             <div>
-              <p>Sponsored by Mercedes-Benz, myself and my 3 cofounders are building a Full-Stack React app (with firebase backend) that tracks drives, providing safety scores.</p>
+              <p>Sponsored by Mercedes-Benz, I'm building a Full-Stack React app (with firebase backend) with 4 others that tracks drives, providing safety scores.</p>
               <p>We believe that safety for new drivers can be engaging and interesting. Find out more at our<a href='https://github.com/cs210/2022-Daimler1/'> GitHub</a>! </p>
             </div>
             </Modal>
 
             <div className="job" onClick={showModal2}>
+            <Animator animation={batch(Fade(), Move(0, -200, 0, 200), Zoom(0.1,1))}>
             <img src={SmartRow} alt="Smart Row Logo" className="project-image-smart"></img>
+            </Animator>
             <p className="white">
-                Smart Row
+                
             </p>
             </div>
         
@@ -95,9 +101,11 @@ function Work() {
             </Modal>
         
             <div className="job" onClick={showModal3}>
+            <Animator animation={batch(Fade(), Move(400, -100, 400, -300), Zoom(0.1,1))}>
             <img src={Luna} alt="Luna Logo" className="project-image"></img>
+            </Animator>
             <p className="white">
-                Luna
+               
             </p>
             </div>
 
@@ -112,9 +120,11 @@ function Work() {
         <div className="work-row">
 
         <div className="job" onClick={showModal4}>
+        <Animator animation={batch(Fade(), Move(-400, 100, -400, -100), Zoom(0.1,1))}>
             <img src={reactLogo} alt="React Logo" className="project-image"></img> 
+        </Animator>
             <p className="white">
-                Resume Website
+               
             </p> 
         </div>
 
@@ -125,9 +135,10 @@ function Work() {
             </Modal>
 
         <div className="job" onClick={showModal5}>
+        <Animator animation={batch(Fade(), Move(400, 100, 400, -100), Zoom(0.1,1))}>
             <img src={Flickr} alt="Flickr Logo" className="project-image"></img> 
+            </Animator>
             <p className="white">
-                Mini Flickr
             </p> 
         </div>
 
@@ -139,6 +150,8 @@ function Work() {
 
         </div>
     </div>
+    </ScrollPage>
+    </ScrollContainer>
 
   );
 }

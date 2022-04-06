@@ -5,7 +5,7 @@ import Latymer from '../../assets/work/latymerWhite.png';
 import workLogo from '../../assets/work/Briefcase.png'
 import React, {useState} from 'react';
 import { Modal } from 'antd';
-
+import { Animator, ScrollContainer, ScrollPage, batch, Fade, Move, Zoom} from "react-scroll-motion";
 
 function Work() {
   const [isModalVisible, setIsModalVisible] = useState(false);
@@ -37,6 +37,8 @@ function Work() {
 
 
   return (
+    <ScrollContainer snap="none">
+    <ScrollPage page={2}>
     <div id="work" className="work">
         <div className="work-overHead">
         <img src={workLogo} alt="Briefcase Logo" className="work-logo"/>
@@ -47,7 +49,9 @@ function Work() {
 
         <div className="work-row">
             <div className="job" onClick={showModal}>
+            <Animator animation={batch(Fade(), Move(-400, -100, -400, -100), Zoom(0.1,1))}>
             <img src={Amazon} alt="Amazon Logo" className="job-image-amazon"></img> 
+            </Animator>
             </div>
             <Modal title={<h1>Amazon - Alexa Shopping</h1>} width={700} visible={isModalVisible} footer={null} onCancel={handleCancel} > 
             <div>
@@ -56,10 +60,12 @@ function Work() {
             </Modal>
         
             <div className="job" onClick={showModal2}>
+            <Animator animation={batch(Fade(), Move(400, -100, 400, -100), Zoom(0.1,1))}>
             <img src={Latymer} alt="Latymer Logo" className="job-image"></img>
+            </Animator>
 
             </div>
-            <Modal title={<h1>FullMeasure - Adora Experiences</h1>} width={700} visible={isModalVisible2} footer={null} onCancel={handleCancel2} > 
+            <Modal title={<h1>Latymer Upper School - Computing TA</h1>} width={700} visible={isModalVisible2} footer={null} onCancel={handleCancel2} > 
             <div>
           <p>For 6 months in 2017, I developed, adapted and taught Computer Science classes in Python and Java to 200 students. I also taught Computer Science for 3.5 hours a week at University and A-Level 
           and tutored Maths in 2017/18, resulting in predicted C grade becoming an A. Finally, I volunteered as a Teaching Assistant at Addison Primary School. </p>
@@ -70,10 +76,12 @@ function Work() {
         <div className="work-row">
 
         <div className="job" onClick={showModal3}>
+        <Animator animation={batch(Fade(), Move(0, -200, 0, 200), Zoom(0.1,1))}>
             <img src={fullMeasure} alt="FullMeasure Logo" className="job-image"></img> 
+        </Animator>
 
             </div>
-            <Modal title={<h1>Latymer Upper School - Computing TA</h1>} width={700} visible={isModalVisible3} footer={null} onCancel={handleCancel3} > 
+            <Modal title={<h1>FullMeasure - Adora Experiences</h1>} width={700} visible={isModalVisible3} footer={null} onCancel={handleCancel3} > 
             <div>
             <p>From June to September of 2021, I Maintained and upgraded all 8 iOS apps for Full Measure’s Campus Visit Experience resulting in a 200% increase of usage over their iOS apps, with on 4,200 tours taken a week.</p>
             <br></br>
@@ -82,6 +90,8 @@ function Work() {
             </Modal>
         </div>
     </div>
+    </ScrollPage>
+    </ScrollContainer>
 
   );
 }
