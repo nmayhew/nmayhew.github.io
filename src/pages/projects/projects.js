@@ -72,9 +72,10 @@ function Work() {
             </p>
             </div>
         
-            <Modal title={<h1>Amazon - Alexa Shopping</h1>} width={700} visible={isModalVisible} footer={null} onCancel={handleCancel} > 
+            <Modal title={<h1>Vahana - Mercedes-Benz</h1>} width={700} visible={isModalVisible} footer={null} onCancel={handleCancel} > 
             <div>
-              <p>This summer from July to the end of August, I'll be working as a Software Engineering Intern in Amazon's Shoreditch office in London.</p>
+              <p>Sponsored by Mercedes-Benz, myself and my 3 cofounders are building a Full-Stack React app (with firebase backend) that tracks drives, providing safety scores.</p>
+              <p>We believe that safety for new drivers can be engaging and interesting. Find out more at our<a href='https://github.com/cs210/2022-Daimler1/'> GitHub</a>! </p>
             </div>
             </Modal>
 
@@ -85,9 +86,11 @@ function Work() {
             </p>
             </div>
         
-            <Modal title={<h1>Amazon - Alexa Shopping</h1>} width={700} visible={isModalVisible2} footer={null} onCancel={handleCancel2} > 
+            <Modal title={<h1>Smart Row - iOS App</h1>} width={700} visible={isModalVisible2} footer={null} onCancel={handleCancel2} > 
             <div>
-              <p>This summer from July to the end of August, I'll be working as a Software Engineering Intern in Amazon's Shoreditch office in London.</p>
+              <p>After my first year at Stanford, I created Smart Row by myself. This was a rowing coaches' assistant app programmed in Swift with online services and GPS capability. </p>
+              <p>This built upon my first iOS App, Time Trialer, that I built while at Latymer, which involved me teaching myself Swift and was downloaded over 2,400 times.</p>
+              <p>Find my code on<a href='https://github.com/nmayhew/row-smartV2'> GitHub</a>!</p>
             </div>
             </Modal>
         
@@ -98,9 +101,10 @@ function Work() {
             </p>
             </div>
 
-            <Modal title={<h1>Amazon - Alexa Shopping</h1>} width={700} visible={isModalVisible3} footer={null} onCancel={handleCancel3} > 
+            <Modal title={<h1>Luna - Sleep Explainer and Card game</h1>} width={700} visible={isModalVisible3} footer={null} onCancel={handleCancel3} > 
             <div>
-              <p>This summer from July to the end of August, I'll be working as a Software Engineering Intern in Amazon's Shoreditch office in London.</p>
+              <p>Over one term, me and my a small group of classmates created a sleep <a href='https://tassicalim.github.io/sleep/'>informational website</a>.</p>
+              <p>After this website, we created a blind-accessible board game (<a href='https://docs.google.com/document/d/1xt_OrjJDWTLGygboBy12Z5b_-f_LVyNn7Rz9tp2vtFg/edit?usp=sharing'>rules</a>, <a href='https://docs.google.com/document/d/1wbrr4RIOKAaNojwPt5kQaxpy93YTNO_KRarzhaJAeTc/edit?usp=sharing'>print and play</a>). Our work for this can be found <a href='https://docs.google.com/document/d/10h4WhCnpwOVXILrbvDAa_wfIkIp3RCUA/edit?usp=sharing&ouid=102420426563333766957&rtpof=true&sd=true'>here</a>! </p>
             </div>
             </Modal>
 
@@ -114,9 +118,9 @@ function Work() {
             </p> 
         </div>
 
-        <Modal title={<h1>Amazon - Alexa Shopping</h1>} width={700} visible={isModalVisible4} footer={null} onCancel={handleCancel4} > 
+        <Modal title={<h1>This Website!</h1>} width={700} visible={isModalVisible4} footer={null} onCancel={handleCancel4} > 
             <div>
-              <p>This summer from July to the end of August, I'll be working as a Software Engineering Intern in Amazon's Shoreditch office in London.</p>
+              <p>I built this website from scratch in my last year at Stanford. Planned on <a href='https://www.figma.com/file/ai4aHoK5gOxt0zluTiN3ZF/Personal-CV?node-id=2%3A2'>Figma</a>; coded in React and hosted on <a href='https://github.com/nmayhew/nmayhew.github.io'>GitHub</a>, this project served a role in my career development and software engineering skills. </p>
             </div>
             </Modal>
 
@@ -127,9 +131,9 @@ function Work() {
             </p> 
         </div>
 
-        <Modal title={<h1>Amazon - Alexa Shopping</h1>} width={700} visible={isModalVisible5} footer={null} onCancel={handleCancel5} > 
+        <Modal title={<h1>Mini Flicker - Stanford Class Project</h1>} width={700} visible={isModalVisible5} footer={null} onCancel={handleCancel5} > 
             <div>
-              <p>This summer from July to the end of August, I'll be working as a Software Engineering Intern in Amazon's Shoreditch office in London.</p>
+              <p>While studying web applications, I built a React front-end and Javascript back-end web app. Find out more in the repo on my <a href='https://github.com/nmayhew/miniFlickr'>GitHub</a>! </p>
             </div>
             </Modal>
 

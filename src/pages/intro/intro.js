@@ -8,7 +8,7 @@ function Intro() {
           <div id="intro" className="intro-text">
            <h1>Hi, I'm Nick Mayhew</h1>
            <br></br><br></br>
-           <p>Born and raised in London, I graduated Stanford as Captain of the men’s varsity rowing team with a 4.0 GPA in Computer Science. 
+           <p>Born and raised in London, I'm graduating Stanford as Captain of the men’s varsity rowing team with a 4.0 GPA in Computer Science in June. 
            <br></br><br></br>
             From October, I'll be studying a Master's in management at Cambridge University after completing a Software Engineering Internship at Amazon this summer.
             <br></br><br></br>
