@@ -2,7 +2,7 @@ import "./programming.css";
 import rowingPhoto from '../../assets/backdrop/rowing2.png';
 import MaterialIcon from 'material-icons-react';
 import { Progress } from 'antd';
-import { Animator, ScrollContainer, ScrollPage, batch, Fade, Move} from "react-scroll-motion";
+import { Animator, ScrollContainer, ScrollPage, batch, FadeIn, Move} from "react-scroll-motion";
 
 function Programming() {
   return (
@@ -47,7 +47,7 @@ function Programming() {
             </div>
               
           </div>
-          <Animator className="programming-photo" animation={batch(Fade(), Move(400, 0, 400, 0))}>
+          <Animator className="programming-photo" animation={batch(FadeIn(), Move(400, 0, 0, 0))}>
           <img src={rowingPhoto} alt="Stroking at Stanford" className="programming-photo"/>    
           </Animator>
         </div> 
