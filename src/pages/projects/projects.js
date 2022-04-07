@@ -111,8 +111,8 @@ function Work() {
 
             <Modal title={<h1>Luna - Sleep Explainer and Card game</h1>} width={700} visible={isModalVisible3} footer={null} onCancel={handleCancel3} > 
             <div>
-              <p>Over one term, I and my a small group of classmates created a sleep <a href='https://tassicalim.github.io/sleep/'>informational website</a>.</p>
-              <p>After this website, we created a blind-accessible board game (<a href='https://docs.google.com/document/d/1xt_OrjJDWTLGygboBy12Z5b_-f_LVyNn7Rz9tp2vtFg/edit?usp=sharing'>rules</a>, <a href='https://docs.google.com/document/d/1wbrr4RIOKAaNojwPt5kQaxpy93YTNO_KRarzhaJAeTc/edit?usp=sharing'>print and play</a>). Our work for this can be found <a href='https://docs.google.com/document/d/10h4WhCnpwOVXILrbvDAa_wfIkIp3RCUA/edit?usp=sharing&ouid=102420426563333766957&rtpof=true&sd=true'>here</a>! </p>
+              <p>Over one term, I and a small group of classmates created a sleep <a href='https://tassicalim.github.io/sleep/'>informational website</a>.</p>
+              <p>After this website, we built a blind-accessible board game (<a href='https://docs.google.com/document/d/1xt_OrjJDWTLGygboBy12Z5b_-f_LVyNn7Rz9tp2vtFg/edit?usp=sharing'>rules</a>, <a href='https://docs.google.com/document/d/1wbrr4RIOKAaNojwPt5kQaxpy93YTNO_KRarzhaJAeTc/edit?usp=sharing'>print and play</a>). Our work for this can be found <a href='https://docs.google.com/document/d/10h4WhCnpwOVXILrbvDAa_wfIkIp3RCUA/edit?usp=sharing&ouid=102420426563333766957&rtpof=true&sd=true'>here</a>! </p>
             </div>
             </Modal>
 
