@@ -21,7 +21,7 @@ const Camcontent = (
 const Stancontent = (
     <div>
       <p>I'm graduating Stanford in June with a 4.05 GPA, majoring in CS and concentrating in Human Computer Interaction. </p>
-      <p>During my time here, I've captain Men's Varsity Rowing and qualified for the Engineering Academic Honor Society. </p>
+      <p>During my time here, I've captained Men's Varsity Rowing and qualified for the Engineering Academic Honor Society. </p>
       <p></p>
       <p>Coursework includes Algorithmic Design, Product Design, Data Structures, Social Psychology and OOP.</p>
       <p></p>

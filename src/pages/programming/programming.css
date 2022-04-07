@@ -1,5 +1,5 @@
 .programming {
-    height: calc(115vh - var(--navbar-height));
+    height: calc(110vh - var(--navbar-height));
     display: flex;
     justify-content: space-around;
     align-items: left;

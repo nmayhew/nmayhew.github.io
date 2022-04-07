@@ -14,7 +14,7 @@ function Intro() {
            <br></br>
            <p>Born and raised in London, I'm graduating Stanford University as Captain of the men’s varsity rowing team with a 4.0 GPA in Computer Science in June. 
            <br></br><br></br>
-            From October, I'll be studying a Master's in management at Cambridge University after completing a Software Engineering Internship at Amazon this summer.
+            From October, I'll be studying a Master's in Management at Cambridge University after completing a Software Engineering Internship at Amazon this summer.
             <br></br><br></br>
             I'm always looking for new oppurtinities. <br></br>Reach out to me on Linkedin or check out my GitHub!</p>
             <br></br><br></br>
