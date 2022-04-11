@@ -38,3 +38,11 @@
     color: var(--color-orange) !important;
   }
   
+  @media only screen and (max-width: 768px) {
+    .navbar-text {
+        font-size: 12px;
+    }
+    .navbar-links {
+      margin-right: 8px;
+    }
+ }

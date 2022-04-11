@@ -3,8 +3,10 @@ import rowingPhoto from '../../assets/backdrop/backdrop.JPG';
 import linkedIn from '../../assets/logos/LinkedIn.png';
 import GitHub from '../../assets/logos/GitHub.png';
 import { Animator, ScrollContainer, ScrollPage, batch, Fade, Move} from "react-scroll-motion";
+import { useMediaQuery } from 'react-responsive';
 
 function Intro() {
+  const isMobile = useMediaQuery({ query: '(max-width: 768px)' })
   return (
     <ScrollContainer snap="none">
     <ScrollPage page={0}>
@@ -12,6 +14,7 @@ function Intro() {
           <div id="intro" className="intro-text">
            <h1>Hi, I'm Nick Mayhew</h1>
            <br></br>
+           {isMobile && <p>This website's mobile version is in Alpha, please use a larger screen for the full experience!<br></br><br></br> </p> }
            <p>Born and raised in London, I'm graduating Stanford University as Captain of the men’s varsity rowing team with a 4.0 GPA in Computer Science in June. 
            <br></br><br></br>
             From October, I'll be studying a Master's in Management at Cambridge University after completing a Software Engineering Internship at Amazon this summer.

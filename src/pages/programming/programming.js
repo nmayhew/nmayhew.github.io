@@ -30,11 +30,11 @@ function Programming() {
             <p className="programming-bars-padding">C/C++</p>
             </div>
             <div className="programming-progress-content">
-            <Progress percent={65} showInfo={false} trailColor='#000000' strokeColor='#33FF00'/>
+            <Progress percent={75} showInfo={false} trailColor='#000000' strokeColor='#33FF00'/>
             <p className="programming-bars-padding">JavaScript</p>
             </div>
             <div className="programming-progress-content">
-            <Progress percent={50} showInfo={false} trailColor='#000000' strokeColor='#0066FF'/>
+            <Progress percent={55} showInfo={false} trailColor='#000000' strokeColor='#0066FF'/>
             <p className="programming-bars-padding">HTML/C++</p>
             </div>
             <div className="programming-progress-content">

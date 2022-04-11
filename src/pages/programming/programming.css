@@ -61,3 +61,19 @@
     flex-direction: column;
     justify-content: space-evenly;
 }
+
+
+@media only screen and (max-width: 768px) {
+    .programming-photo {
+      color: white;
+      border-radius: 80px;
+      width: 0vw;
+    }
+    
+    .programming-progress {
+      color: white;
+      text-align: center;
+      width: 95vw;
+    }
+    
+    }
