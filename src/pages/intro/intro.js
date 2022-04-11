@@ -6,7 +6,7 @@ import { Animator, ScrollContainer, ScrollPage, batch, Fade, Move} from "react-s
 import { useMediaQuery } from 'react-responsive';
 
 function Intro() {
-  const isMobile = useMediaQuery({ query: '(max-width: 768px)' })
+  const isMobile = useMediaQuery({ query: '(max-width: 425px)' })
   return (
     <ScrollContainer snap="none">
     <ScrollPage page={0}>

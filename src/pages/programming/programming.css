@@ -63,7 +63,7 @@
 }
 
 
-@media only screen and (max-width: 768px) {
+@media only screen and (max-width: 425px) {
     .programming-photo {
       color: white;
       border-radius: 80px;
