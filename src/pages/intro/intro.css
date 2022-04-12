@@ -43,3 +43,18 @@
 }
 
 }
+
+@media only screen and (min-width: 425px) and (max-width: 768px) {
+    .intro-photo {
+      color: white;
+      border-radius: 80px;
+      width: 40vw;
+    }
+  
+  .intro-text {
+    color: white;
+    text-align: center;
+    width: 40vw;
+  }
+  
+  }

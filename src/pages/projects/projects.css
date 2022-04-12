@@ -51,4 +51,17 @@
     .project-row {
         flex-direction: column;
     }
+
+    .project-logo {
+        height:40px
+    }
+    .project-image {
+        max-height: 70px;
+        max-width: 150px;
+    }
+    
+    .project-image-smart {
+        width: 70px;
+        border-radius: 20px;
+    }
  }

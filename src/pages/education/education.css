@@ -45,4 +45,7 @@
    .education-row {
        flex-direction: column;
    }
+   .school-image {
+    height: 130px;
+    }
 }

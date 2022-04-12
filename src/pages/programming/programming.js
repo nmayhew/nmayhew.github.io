@@ -3,14 +3,17 @@ import rowingPhoto from '../../assets/backdrop/rowing2.png';
 import MaterialIcon from 'material-icons-react';
 import { Progress } from 'antd';
 import { Animator, ScrollContainer, ScrollPage, batch, FadeIn, MoveIn} from "react-scroll-motion";
+import { useMediaQuery } from 'react-responsive';
 
 function Programming() {
+  const isMobile = useMediaQuery({ query: '(max-width: 425px)' })
   return (
     <ScrollContainer snap="none">
     <ScrollPage page={4}>
     <div id="programming" className="programming">
         <div className="programming-overHead">
-        <MaterialIcon icon="code" size={55} color='#FFFFFF'/>
+        {isMobile && <MaterialIcon icon="code" size={40} color='#FFFFFF'/>}
+        {!isMobile && <MaterialIcon icon="code" size={55} color='#FFFFFF'/>}
             <h1 className="programming-header">
                 Programming
             </h1>

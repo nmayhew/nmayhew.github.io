@@ -26,7 +26,7 @@
 }
 
 .work-logo {
-    height:55px
+    height:55px;
 }
 
 .job {
@@ -51,4 +51,14 @@
    .work-row {
        flex-direction: column;
    }
+   .job-image {
+        width: 250px;
+    }
+    .work-logo {
+        height: 40px;
+    }
+
+    .job-image-amazon {
+        width: 170px;
+    }
 }
