@@ -12,7 +12,7 @@
 .intro-text {
   color: white;
   text-align: center;
-  width: 35vw;
+  width: 40vw;
 }
 
 .intro-logo {
@@ -29,7 +29,7 @@
 
 }
 
-@media only screen and (max-width: 425px) {
+@media only screen and (max-width: 450px) {
 .intro-photo {
   color: white;
   border-radius: 80px;
@@ -44,7 +44,7 @@
 
 }
 
-@media only screen and (min-width: 425px) and (max-width: 768px) {
+@media only screen and (min-width: 450px) and (max-width: 768px) {
     .intro-photo {
       color: white;
       border-radius: 80px;

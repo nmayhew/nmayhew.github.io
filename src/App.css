@@ -80,7 +80,7 @@ a:hover {
   transition: opacity 300ms, transform 300ms;
 }
 
-@media only screen and (max-width: 425px) {
+@media only screen and (max-width: 450px) {
   p {
     font-size: 16px;
     line-height: 1.2;
@@ -98,7 +98,7 @@ h3 {
 }
 
 
-@media only screen and (min-width: 425px) and (max-width: 768px) {
+@media only screen and (min-width: 450px) and (max-width: 768px) {
   p {
     font-size: 16px;
     line-height: 1.3;

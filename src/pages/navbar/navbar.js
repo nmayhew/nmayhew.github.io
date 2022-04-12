@@ -9,7 +9,7 @@ function scroll(scrollDistanceInPx) {
 }
 
 function Navbar() {
-  const isMobile = useMediaQuery({ query: '(max-width: 425px)' })
+  const isMobile = useMediaQuery({ query: '(max-width: 450px)' })
   return (
     <div className="navbar">
       <div className="navbar-links">

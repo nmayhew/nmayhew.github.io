@@ -42,7 +42,7 @@ const Latycontent = (
   );
 
 function Education() {
-  const isMobile = useMediaQuery({ query: '(max-width: 425px)' })
+  const isMobile = useMediaQuery({ query: '(max-width: 450px)' })
   return (
     <ScrollContainer snap="none">
     <ScrollPage page={1}>
