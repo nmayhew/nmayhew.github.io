@@ -20,7 +20,7 @@ function Intro() {
            <br></br>
            {(isMobile) && <p>This website's mobile version is in Beta, please use a larger screen for the full experience!<br></br><br></br> </p> }
            {(isTablet) && <p>This website's tablet version is in Beta, please use a larger screen for the full experience!<br></br><br></br> </p> }
-           <p>Born and raised in London, I'm graduating Stanford University in June as Captain of the men’s varsity rowing team with a 4.0 GPA in Computer Science. 
+           <p>I graduated Stanford University in June as Captain of the men’s varsity rowing team with a 4.05 GPA in Computer Science, winning the Block S Honor for highest GPA of a male graduating Student-Athlete. 
            <br></br><br></br>
             From October, I'll be studying a Master's in Management at Cambridge University after completing a Software Engineering Internship at Amazon this summer.
             <br></br><br></br>

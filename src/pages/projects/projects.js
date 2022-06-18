@@ -78,8 +78,8 @@ function Work() {
         
             <Modal title={<h1>Vahana - Mercedes-Benz</h1>} width={700} visible={isModalVisible} footer={null} onCancel={handleCancel} > 
             <div>
-              <p>Sponsored by Mercedes-Benz, I'm building a Full-Stack React app (with firebase backend) with 4 others that tracks drives, providing safety scores.</p>
-              <p>We believe that safety for new drivers can be engaging and interesting. Find out more at our<a href='https://github.com/cs210/2022-Daimler1/'> GitHub</a>! </p>
+              <p>Sponsored by Mercedes-Benz, I built a Full-Stack React Native app (with firebase backend) with 4 others that tracks drives, providing safety scores.</p>
+              <p>We believe that safety for new drivers can be engaging and interesting. Find out more at our<a href='https://github.com/cs210/2022-Daimler1/'> GitHub</a> or download our <a href='https://vahanapp.app.link/G1AO55XLlqb'> iPhone app</a>! </p>
             </div>
             </Modal>
 

@@ -22,10 +22,10 @@ const Camcontent = (
     );
 const Stancontent = (
     <div>
-      <p>I'm graduating Stanford in June with a 4.05 GPA, majoring in CS and concentrating in Human Computer Interaction. </p>
-      <p>During my time here, I've captained Men's Varsity Rowing and qualified for the Engineering Academic Honor Society. </p>
+      <p>I graduated Phi Beta Kappa (Academic Honour Society) from Stanford in June with a 4.05 GPA, majoring in CS and concentrating in Human Computer Interaction. </p>
+      <p>During my time here, I won the Block S Honors For Men for the highest Graduating Male GPA for Student-Athletes. I've also captained Men's Varsity Rowing and been Coaches' Association National Scholar-Athlete. </p>
       <p></p>
-      <p>Coursework includes Algorithmic Design, Product Design, Data Structures, Social Psychology and OOP.</p>
+      <p>My coursework includes Algorithmic Design, Product Design, Data Structures, Social Psychology and OOP.</p>
       <p></p>
     </div>
 );
