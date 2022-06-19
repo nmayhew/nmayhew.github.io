@@ -1,5 +1,5 @@
 .education {
-    height: calc(100vh - var(--navbar-height));
+    height: calc(93vh - var(--navbar-height));
     display: flex;
     justify-content: space-between;
     align-items:flex-start;
@@ -16,8 +16,8 @@
 }
 
 .education-row {
-
     width: 100vw;
+    padding-bottom: 4vw;
     display: flex;
     justify-content: space-around;
     text-align: center;
@@ -30,7 +30,7 @@
     border-width: 2px;
 }
 .school-image {
-    height: 210px;
+    height: 24vh;
 }
 .education-header {
     color: white;
@@ -42,10 +42,22 @@
 
 
 @media only screen and (max-width: 450px) {
+    .education {
+        height: calc(100vh - var(--navbar-height));
+        display: flex;
+        justify-content: space-between;
+        align-items:flex-start;
+        flex-direction:  column;
+        background-color: black;
+        width: 100vw;
+        padding: 3vw;
+    }
+
    .education-row {
        flex-direction: column;
+       padding-bottom: 4vw;
    }
    .school-image {
-    height: 130px;
+    height: 20vh;
     }
 }

@@ -20,7 +20,7 @@ function Navbar() {
           activeClass="navbar-active"
           smooth
           spy={true}
-          offset={-100}
+          offset={-70}
           isDynamic={true}
           duration={scroll}
         >
@@ -32,7 +32,7 @@ function Navbar() {
           activeClass="navbar-active"
           smooth
           spy={true}
-          offset={-100}
+          offset={-70}
           isDynamic={true}
           duration={scroll}
         >
@@ -44,7 +44,7 @@ function Navbar() {
           activeClass="navbar-active"
           smooth
           spy={true}
-          offset={-100}
+          offset={-70}
           isDynamic={true}
           duration={scroll}
         >
@@ -55,7 +55,7 @@ function Navbar() {
           className="navbar-link"
           activeClass="navbar-active"
           smooth
-          offset={-100}
+          offset={-70}
           spy={true}
           isDynamic={true}
           duration={scroll}
@@ -69,7 +69,7 @@ function Navbar() {
           activeClass="navbar-active"
           smooth
           spy={true}
-          offset={-80}
+          offset={-70}
           isDynamic={true}
           duration={scroll}
         >

@@ -18,14 +18,14 @@ function Intro() {
           <div id="intro" className="intro-text">
            <h1>Hi, I'm Nick Mayhew</h1>
            <br></br>
-           {(isMobile) && <p>This website's mobile version is in Beta, please use a larger screen for the full experience!<br></br><br></br> </p> }
-           {(isTablet) && <p>This website's tablet version is in Beta, please use a larger screen for the full experience!<br></br><br></br> </p> }
-           <p>I graduated Stanford University in June as Captain of the men’s varsity rowing team with a 4.05 GPA in Computer Science, winning the Block S Honor for highest GPA of a male graduating Student-Athlete. 
+           <p>I graduated Stanford University in June in Computer Science (4.05 GPA), winning the Block S Honor for highest GPA of a male graduating Student-Athlete and captaining Men's Varsity Rowing. 
            <br></br><br></br>
             From October, I'll be studying a Master's in Management at Cambridge University after completing a Software Engineering Internship at Amazon this summer.
             <br></br><br></br>
-            I'm always looking for new oppurtinities. <br></br>Reach out to me on Linkedin or check out my GitHub!</p>
-            <br></br><br></br>
+            I'm always looking for new oppurtinities. Reach out to me on Linkedin or check out my GitHub!</p>
+            <br></br>
+            {(isMobile) && <p>This website's mobile version is in Beta, please use a larger screen for the full experience<br></br><br></br> </p> }
+            {(isTablet) && <p>This website's tablet version is in Beta, please use a larger screenfor the full experience<br></br><br></br> </p> }
             <a href='https://www.linkedin.com/in/nicholas-mayhew/'><img src={linkedIn} alt="linkedIn-logo" className="intro-logo"/></a>
             <a href='https://github.com/nmayhew'><img src={GitHub} alt="GitHub-logo" className="intro-logo"/></a>
             {isMobile && <Avatar size={70} src={me} alt="Logo" shape="circle"/>}
@@ -43,4 +43,5 @@ function Intro() {
 
 
 export default Intro;
+
 
