@@ -79,7 +79,7 @@ function Work() {
             <Modal title={<h1>Vahana - Mercedes-Benz</h1>} width={700} visible={isModalVisible} footer={null} onCancel={handleCancel} > 
             <div>
               <p>Sponsored by Mercedes-Benz, I built a Full-Stack React Native app (with firebase backend) with 4 others that tracks drives, providing safety scores.</p>
-              <p>We believe that safety for new drivers can be engaging and interesting. Find out more at our<a href='https://github.com/cs210/2022-Daimler1/'> GitHub</a> or download our <a href='https://vahanapp.app.link/G1AO55XLlqb'> iPhone app</a>! </p>
+              <p>We believe that safety for new drivers can be engaging and interesting. Find out more at our<a href='https://github.com/cs210/2022-Daimler1/'> GitHub</a> or download our <a href='https://apps.apple.com/us/app/vahana/id1619032103'> iPhone app</a>! </p>
             </div>
             </Modal>
 
@@ -96,7 +96,7 @@ function Work() {
             <div>
               <p>After my first year at Stanford, I created Smart Row by myself. This was a rowing coaches' assistant app programmed in Swift with online services and GPS capability. </p>
               <p>This built upon my first iOS App, Time Trialer, that I developed while at Latymer, which involved me teaching myself Swift and was downloaded over 2,400 times.</p>
-              <p>Find my code on<a href='https://github.com/nmayhew/row-smartV2'> GitHub</a>!</p>
+              <p>Find my code on<a href='https://github.com/nmayhew/row-smartV2'> GitHub</a> or download my <a href='https://apps.apple.com/us/app/row-smart/id1477968562'> iPhone app</a>!</p>
             </div>
             </Modal>
         

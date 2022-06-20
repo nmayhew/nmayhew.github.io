@@ -10,7 +10,23 @@ import ReactGA from 'react-ga';
 
 function App() {
   ReactGA.initialize('UA-232337955-1');
-ReactGA.pageview(window.location.pathname + window.location.search);
+  ReactGA.pageview(window.location.pathname + window.location.search);
+  if (window.DeviceOrientationEvent) {
+    window.addEventListener("deviceorientation", function(event) {
+        // alpha: rotation around z-axis
+        var rotateDegrees = event.alpha;
+        // gamma: left to right
+        var leftToRight = event.gamma;
+        // beta: front back motion
+        var frontToBack = event.beta;
+
+        handleOrientationEvent(frontToBack, leftToRight, rotateDegrees);
+    }, true);
+}
+
+var handleOrientationEvent = function(frontToBack, leftToRight, rotateDegrees) {
+    window.location.reload();
+};
   return (
     <div className="app">
     <div className="content">

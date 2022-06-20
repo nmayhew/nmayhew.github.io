@@ -30,14 +30,14 @@
 }
 
 .project-image {
-    max-height: 100px;
+    max-height: 15vh;
     border-radius: 10px;
-    max-width: 190px;
+    max-width: 25vw;
 }
 
 .project-image-smart {
-    width: 100px;
-    border-radius: 30px;
+    width: 12vw;
+    border-radius: 4vw;
 }
 
 .project-header {

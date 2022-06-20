@@ -33,11 +33,11 @@
     cursor: pointer;
 }
 .job-image {
-    width: 370px;
+    width: 24vw;
 }
 
 .job-image-amazon {
-    width: 250px;
+    width: 20vw;
 }
 .work-header {
     color: white;
