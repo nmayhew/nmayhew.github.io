@@ -55,7 +55,7 @@ function Work() {
             </div>
             <Modal title={<h1>Amazon - Alexa Shopping</h1>} width={700} visible={isModalVisible} footer={null} onCancel={handleCancel} > 
             <div>
-              <p>This summer from July to the end of August, I'll be working as a Software Engineering Intern in Amazon's Shoreditch office in London for the Alexa Shopping department.</p>
+              <p>I worked as a full-stack developer, creating a React website with RESTful APIs and AWS back-end to store, process and distribute iOS and Android test builds.</p>
             </div>
             </Modal>
         

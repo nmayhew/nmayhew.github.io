@@ -2,14 +2,15 @@
 
 :root {
   --color-orange: #FFB11F;
-  --color-black: #000000;
+  --color-black: #090909;
+  --color-white: #F8F9FA;
   --navbar-height: 70px;
   --border-radius: 8px;
-  background-color: black;
+  background-color: var(--color-black);
 }
 .app {
   display: flex;
-  background-color: black;
+  background-color: var(--color-black);
   justify-content: center;
   min-height: 100vh;
   overflow: hidden;
@@ -43,7 +44,7 @@ p {
 }
 
 a:hover {
-  color: black;
+  color: var(--color-black);
 }
 
 .header {
@@ -57,7 +58,7 @@ a:hover {
 
 .content {
   margin-top: var(--navbar-height);
-  background-color: black;
+  background-color: var(--color-black);
   display: flex;
   flex-direction: column;
 }
@@ -119,10 +120,10 @@ h3 {
 @media only screen and (min-width: 450px) and (max-width: 768px) {
   :root {
     --color-orange: #FFB11F;
-    --color-black: #000000;
+    --color-black: #var(--color-black);
     --navbar-height: 100px;
     --border-radius: 8px;
-    background-color: black;
+    background-color: var(--color-black);
   }
   p {
     font-size: 16px;

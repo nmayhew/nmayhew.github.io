@@ -4,7 +4,7 @@
     justify-content: space-between;
     align-items:flex-start;
     flex-direction:  column;
-    background-color: black;
+    background-color: var(--color-black);
     width: 100vw;
     padding: 3vw;
 }
@@ -33,11 +33,11 @@
     height: 24vh;
 }
 .education-header {
-    color: white;
+    color: var(--color-white);
     margin-left: 20px;
 }
 .white {
-    color: white;
+    color: var(--color-white);
 }
 
 
@@ -48,7 +48,7 @@
         justify-content: space-between;
         align-items:flex-start;
         flex-direction:  column;
-        background-color: black;
+        background-color: var(--color-black);
         width: 100vw;
         padding: 3vw;
     }

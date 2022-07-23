@@ -11,7 +11,7 @@
 }
 
 .programming-header {
-  color: white;
+  color: var(--color-white);
   
 }
 
@@ -37,14 +37,14 @@
 }
 
 .programming-progress-headers {
-    color: white;
+    color: var(--color-white);
     text-decoration: underline;
     display: flex;
     flex-direction: row;
     justify-content: space-between;
 }
 .programming-progress-content {
-    color: white;
+    color: var(--color-white);
     display: flex;
     flex-direction: row;
     align-items: center;
@@ -65,13 +65,13 @@
 
 @media only screen and (max-width: 450px) {
     .programming-photo {
-      color: white;
+      color: var(--color-white);
       border-radius: 80px;
       width: 0vw;
     }
     
     .programming-progress {
-      color: white;
+      color: var(--color-white);
       text-align: center;
       width: 95vw;
       margin-right: 16px;

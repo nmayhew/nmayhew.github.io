@@ -10,7 +10,7 @@
 }
 
 .intro-text {
-  color: white;
+  color: var(--color-white);
   text-align: center;
   width: 40vw;
 }
@@ -23,7 +23,7 @@
 }
 
 .intro-photo {
-  color: white;
+  color: var(--color-white);
   border-radius: 80px;
   width: 35vw;
 
@@ -31,13 +31,13 @@
 
 @media only screen and (max-width: 450px) {
 .intro-photo {
-  color: white;
+  color: var(--color-white);
   border-radius: 80px;
   width: 0vw;
 }
 
 .intro-text {
-  color: white;
+  color: var(--color-white);
   text-align: center;
   width: 100vw;
 }
@@ -46,13 +46,13 @@
 
 @media only screen and (min-width: 450px) and (max-width: 768px) {
     .intro-photo {
-      color: white;
+      color: var(--color-white);
       border-radius: 80px;
       width: 40vw;
     }
   
   .intro-text {
-    color: white;
+    color: var(--color-white);
     text-align: center;
     width: 45vw;
   }
