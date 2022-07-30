@@ -18,7 +18,7 @@ function Intro() {
           <div id="intro" className="intro-text">
            <h1>Hi, I'm Nick Mayhew</h1>
            <br></br>
-           <p>I graduated Stanford University in June in Computer Science (4.05 GPA), winning the Block S Honor for highest GPA of a male graduating Student-Athlete and captaining Men's Varsity Rowing. 
+           <p>I graduated Stanford University with Distinction in June in Computer Science (4.05 GPA), winning the Block S Honor for highest GPA of a male graduating Student-Athlete and captaining Men's Varsity Rowing. 
            <br></br><br></br>
             From October, I'll be studying a Master's in Management at Cambridge University after completing a Software Engineering Internship at Amazon this summer.
             <br></br><br></br>
