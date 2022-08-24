@@ -1,13 +1,15 @@
 {
   "files": {
-    "main.css": "/static/css/main.8e983c23.css",
-    "main.js": "/static/js/main.3e958c6d.js",
+    "main.css": "/static/css/main.603af425.css",
+    "main.js": "/static/js/main.9d093e88.js",
     "static/js/787.54872dfc.chunk.js": "/static/js/787.54872dfc.chunk.js",
     "static/media/Husky.JPG": "/static/media/Husky.e1adc62b08a0a3fa71b1.JPG",
+    "pdf.worker.js": "/e7e915313973ba1d49f9bb2a1998626e.js",
     "static/media/backdrop.JPG": "/static/media/backdrop.63ffc82861b2d01f1bbe.JPG",
     "static/media/Stanford.png": "/static/media/Stanford.dd2dad877f22b6703d35.png",
     "static/media/me.JPG": "/static/media/me.fec3fa101bbbd12acf2f.JPG",
     "static/media/Cambridge.png": "/static/media/Cambridge.0edb14d407303dc3aa98.png",
+    "static/media/CV.pdf": "/static/media/CV.00f578e83fa099043901.pdf",
     "static/media/SmartRow.png": "/static/media/SmartRow.f03d4a65bd5012a99e6d.png",
     "static/media/PublicSans-Regular.ttf": "/static/media/PublicSans-Regular.4923208255b32cd2980c.ttf",
     "static/media/LinkedIn.png": "/static/media/LinkedIn.fb3a789263697d65093a.png",
@@ -17,12 +19,12 @@
     "static/media/mercedes.png": "/static/media/mercedes.a00c0259ab41bfdcde0c.png",
     "static/media/latymerWhite.png": "/static/media/latymerWhite.74e3bda96bab5423f8ba.png",
     "index.html": "/index.html",
-    "main.8e983c23.css.map": "/static/css/main.8e983c23.css.map",
-    "main.3e958c6d.js.map": "/static/js/main.3e958c6d.js.map",
+    "main.603af425.css.map": "/static/css/main.603af425.css.map",
+    "main.9d093e88.js.map": "/static/js/main.9d093e88.js.map",
     "787.54872dfc.chunk.js.map": "/static/js/787.54872dfc.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.8e983c23.css",
-    "static/js/main.3e958c6d.js"
+    "static/css/main.603af425.css",
+    "static/js/main.9d093e88.js"
   ]
 }
