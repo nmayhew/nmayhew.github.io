@@ -1,7 +1,8 @@
 import "./programming.css";
 import rowingPhoto from '../../assets/backdrop/backdrop.JPG';
 import MaterialIcon from 'material-icons-react';
-import { Progress } from 'antd';
+import { Page, Document } from 'react-pdf/dist/esm/entry.webpack';
+import Resume from '../../assets/cv/CV.pdf';
 import { Animator, ScrollContainer, ScrollPage, batch, FadeIn, MoveIn} from "react-scroll-motion";
 import { useMediaQuery } from 'react-responsive';
 
@@ -14,45 +15,25 @@ function Programming() {
         <div className="programming-overHead">
         {isMobile && <MaterialIcon icon="code" size={40} color='#FFFFFF'/>}
         {!isMobile && <MaterialIcon icon="code" size={55} color='#FFFFFF'/>}
-            <h1 className="programming-header">
-                Programming
+            <h1 >
+            <a className="programming-header"
+            href="https://docs.google.com/document/d/e/2PACX-1vQlo58VwXoxyS-fTVbCtztSdIDBOUDKOmLqn_7gl1Un2MXAtkcf7Zn6tPAms8tFo0mflQRUW48-KcKZ/pub">
+                Resume
+            </a>
             </h1>
         </div>
         <div className="programming-content">
-          <div className="programming-progress">
-            <div className="programming-progress-headers">
-            <p>Skill Level</p>
-            <p>Language</p>
-            </div>
-            <div className="programming-progress-content">
-            <Progress  percent={100} showInfo={false} trailColor='#090909' strokeColor='#0066FF'/>
-            <p className="programming-bars-padding">Swift</p>
-            </div>
-            <div className="programming-progress-content">
-            <Progress percent={100} showInfo={false} trailColor='#090909' strokeColor='#DE541E'/>
-            <p className="programming-bars-padding">C/C++</p>
-            </div>
-            <div className="programming-progress-content">
-            <Progress percent={75} showInfo={false} trailColor='#090909' strokeColor='#33FF00'/>
-            <p className="programming-bars-padding">JavaScript</p>
-            </div>
-            <div className="programming-progress-content">
-            <Progress percent={55} showInfo={false} trailColor='#090909' strokeColor='#0066FF'/>
-            <p className="programming-bars-padding">HTML/C++</p>
-            </div>
-            <div className="programming-progress-content">
-            <Progress percent={30} showInfo={false} trailColor='#090909' strokeColor='#DE541E'/>
-            <p className="programming-bars-padding">Java</p>
-            </div>
-            <div className="programming-progress-content">
-            <Progress percent={30} showInfo={false} trailColor='#090909' strokeColor='#33FF00'/>
-            <p className="programming-bars-padding">Python</p>
-            </div>
-              
-          </div>
-          <Animator className="programming-photo" animation={batch(FadeIn(), MoveIn(400, 0, 0, 0))}>
-          <img src={rowingPhoto} alt="Racing at Stanford" className="programming-photo"/>    
-          </Animator>
+              <iframe
+              marginwidth="0"
+              marginheight="0"
+              className="programming-progress"
+              title="cv"
+              frameBorder="0"
+                src="https://docs.google.com/document/d/e/2PACX-1vQlo58VwXoxyS-fTVbCtztSdIDBOUDKOmLqn_7gl1Un2MXAtkcf7Zn6tPAms8tFo0mflQRUW48-KcKZ/pub?embedded=true">  
+                </iframe>
+                <Animator className="programming-photo" animation={batch(FadeIn(), MoveIn(400, 0, 0, 0))}>
+                <img src={rowingPhoto} alt="Racing at Stanford" className="programming-photo"/>    
+              </Animator>
         </div> 
 
     </div>

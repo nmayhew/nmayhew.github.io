@@ -119,11 +119,7 @@ h3 {
 
 @media only screen and (min-width: 450px) and (max-width: 768px) {
   :root {
-    --color-orange: #FFB11F;
-    --color-black: #var(--color-black);
     --navbar-height: 100px;
-    --border-radius: 8px;
-    background-color: var(--color-black);
   }
   p {
     font-size: 16px;

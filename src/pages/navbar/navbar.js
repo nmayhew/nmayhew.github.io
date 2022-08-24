@@ -73,7 +73,7 @@ function Navbar() {
           isDynamic={true}
           duration={scroll}
         >
-          <p className="navbar-text">Programming</p>
+          <p className="navbar-text">Resume</p>
         </Link>
       }
       </div>
