@@ -1,5 +1,5 @@
 import "./programming.css";
-import rowingPhoto from '../../assets/backdrop/rowing2.png';
+import rowingPhoto from '../../assets/backdrop/backdrop.JPG';
 import MaterialIcon from 'material-icons-react';
 import { Progress } from 'antd';
 import { Animator, ScrollContainer, ScrollPage, batch, FadeIn, MoveIn} from "react-scroll-motion";
@@ -51,7 +51,7 @@ function Programming() {
               
           </div>
           <Animator className="programming-photo" animation={batch(FadeIn(), MoveIn(400, 0, 0, 0))}>
-          <img src={rowingPhoto} alt="Stroking at Stanford" className="programming-photo"/>    
+          <img src={rowingPhoto} alt="Racing at Stanford" className="programming-photo"/>    
           </Animator>
         </div> 
 
