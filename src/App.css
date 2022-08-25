@@ -2,6 +2,7 @@
 
 :root {
   --color-orange: #FFB11F;
+  --deep-orange: #CC8500;
   --color-black: #090909;
   --color-white: #F8F9FA;
   --navbar-height: 70px;
@@ -79,6 +80,13 @@ a:hover {
   opacity: 0;
   transform: scale(0.9);
   transition: opacity 300ms, transform 300ms;
+}
+
+mark {
+  background-color: var(--deep-orange);
+  color: var(--color-white);
+  border-radius: 10px;
+  padding: 0px;
 }
 
 @media only screen and (max-width: 450px) {
