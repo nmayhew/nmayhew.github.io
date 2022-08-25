@@ -1,8 +1,6 @@
 import "./programming.css";
 import rowingPhoto from '../../assets/backdrop/backdrop.JPG';
 import MaterialIcon from 'material-icons-react';
-import { Page, Document } from 'react-pdf/dist/esm/entry.webpack';
-import Resume from '../../assets/cv/CV.pdf';
 import { Animator, ScrollContainer, ScrollPage, batch, FadeIn, MoveIn} from "react-scroll-motion";
 import { useMediaQuery } from 'react-responsive';
 

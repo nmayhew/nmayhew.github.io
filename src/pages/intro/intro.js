@@ -22,7 +22,7 @@ function Intro() {
            <br></br><br></br>
             I'm currently studying a Master's in Management at Cambridge University after completing a Software Engineering Internship at Amazon this summer.
             <br></br><br></br>
-            I'm always looking for new oppurtinities. Reach out to me on Linkedin or check out my GitHub!</p>
+            I'm always looking for new opportunities. Reach out to me on Linkedin or check out my GitHub!</p>
             <br></br>
             {(isMobile) && <p>This website's mobile version is in Beta, please use a larger screen for the full experience<br></br><br></br> </p> }
             {(isTablet) && <p>This website's tablet version is in Beta, please use a larger screenfor the full experience<br></br><br></br> </p> }
