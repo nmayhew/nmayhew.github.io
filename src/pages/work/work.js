@@ -85,7 +85,7 @@ function Work() {
               <div>
                 <p>From June to September of 2021, I maintained and upgraded all 8 iOS apps for Full Measure’s Campus Visit Experience resulting in a 200% increase of usage over their iOS apps, with over 4,200 tours taken a week.</p>
                 <br></br>
-                <p>This involved programming stability improvements to see a 5 times reduction in crashes across all apps; overhauling the navigation UI for on-campus and off-campus tours across all apps, and implementing accessibility features to all apps.</p>
+                <p>This involved programming stability improvements to see a 5 times reduction in crashes across all apps; overhauling the navigation UI for on-campus and off-campus tours on all apps, and implementing accessibility features to all apps.</p>
               </div>
             </Modal>
           </div>
