@@ -22,7 +22,7 @@ function Intro() {
               <br></br><br></br>
               Last year, I completed my undergraduate from <mark>&nbsp;Stanford&nbsp;</mark> University (4.05 GPA), achieving the <mark>&nbsp;highest GPA&nbsp;</mark> of a male graduating Student-Athlete and captaining Men's Varsity Rowing.
               <br></br><br></br>
-              My internships at <mark>&nbsp;Amazon&nbsp;</mark>, <mark>&nbsp;AB InBev&nbsp;</mark> and startups have created a generalist skillset across public speaking to coding to finance.
+              My internships at <mark>&nbsp;Amazon&nbsp;</mark>, <mark>&nbsp;AB InBev&nbsp;</mark> and startups have created a diverse generalist skillset including programming, public speaking and finance.
               <br></br><br></br>
               I'm looking for <mark>&nbsp;graduate jobs&nbsp;</mark> from <mark>&nbsp;August 2023&nbsp;</mark> to work in a fast-paced, high-growth environment. Reach out to me on Linkedin or check out my GitHub!</p>
             <br></br>
