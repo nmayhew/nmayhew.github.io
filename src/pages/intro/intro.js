@@ -9,7 +9,7 @@ import me from "../../assets/me/me.JPG";
 
 function Intro() {
   const isMobile = useMediaQuery({ query: '(max-width: 450px)' })
-  const isTablet = useMediaQuery({ query: '(min-width: 450px) and (max-width: 768px) ' })
+  const isTablet = useMediaQuery({ query: '(min-width: 450px) and (max-width: 790px) ' })
 
   return (
     <ScrollContainer snap="none">
@@ -27,7 +27,7 @@ function Intro() {
               I'm looking for <mark>&nbsp;graduate jobs&nbsp;</mark> from <mark>&nbsp;August 2023&nbsp;</mark> to work in a fast-paced, high-growth environment. Reach out to me on Linkedin or check out my GitHub!</p>
             <br></br>
             {(isMobile) && <p>This website's mobile version is in Beta, please use a larger screen for the full experience<br></br><br></br> </p>}
-            {(isTablet) && <p>This website's tablet version is in Beta, please use a larger screenfor the full experience<br></br><br></br> </p>}
+            {(isTablet) && <p>This website's tablet version is in Beta, please use a larger screen for the full experience<br></br><br></br> </p>}
             <a href='https://www.linkedin.com/in/nicholas-mayhew/'><img src={linkedIn} alt="linkedIn-logo" className="intro-logo" /></a>
             <a href='https://github.com/nmayhew'><img src={GitHub} alt="GitHub-logo" className="intro-logo" /></a>
             {isMobile && <Avatar size={70} src={me} alt="Logo" shape="circle" />}

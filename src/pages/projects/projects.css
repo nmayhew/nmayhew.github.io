@@ -31,15 +31,15 @@
 }
 
 .project-image {
-    max-height: 30svh;
+    max-height: 30vh;
     border-radius: 10px;
     max-width: 25vw;
-    width: 10vw;
+    width: 15vw;
 }
 
 .project-image-smart {
-    width: 10vw;
-    border-radius: 3vw;
+    width: 15vw;
+    border-radius: 5vw;
 }
 
 .project-header {
@@ -61,8 +61,8 @@
     }
 
     .project-image {
-        max-height: 70px;
-        max-width: 150px;
+        max-height: 150px;
+        max-width: 250px;
     }
 
     .project-image-smart {
