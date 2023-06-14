@@ -5,7 +5,7 @@ import me from "../../assets/me/me.JPG";
 import { useMediaQuery } from 'react-responsive';
 
 function scroll(scrollDistanceInPx) {
-  return Math.abs(scrollDistanceInPx*2);
+  return Math.abs(scrollDistanceInPx * 2);
 }
 
 function Navbar() {
@@ -13,7 +13,7 @@ function Navbar() {
   return (
     <div className="navbar">
       <div className="navbar-links">
-      {!isMobile && <Avatar size={60} src={me} alt="Logo" shape="circle"/>}
+        {!isMobile && <Avatar size={60} src={me} alt="Logo" shape="circle" />}
         <Link
           to="intro"
           className="navbar-link"
@@ -62,20 +62,20 @@ function Navbar() {
         >
           <p className="navbar-text">Projects</p>
         </Link>
-        {!isMobile && 
-        <Link
-          to="programming"
-          className="navbar-link"
-          activeClass="navbar-active"
-          smooth
-          spy={true}
-          offset={-70}
-          isDynamic={true}
-          duration={scroll}
-        >
-          <p className="navbar-text">Resume</p>
-        </Link>
-      }
+        {!isMobile &&
+          <Link
+            to="programming"
+            className="navbar-link"
+            activeClass="navbar-active"
+            smooth
+            spy={true}
+            offset={-70}
+            isDynamic={true}
+            duration={scroll}
+          >
+            <p className="navbar-text">Resume</p>
+          </Link>
+        }
       </div>
     </div>
   );

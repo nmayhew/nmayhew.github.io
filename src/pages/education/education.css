@@ -2,17 +2,18 @@
     height: calc(93vh - var(--navbar-height));
     display: flex;
     justify-content: space-between;
-    align-items:flex-start;
-    flex-direction:  column;
+    align-items: flex-start;
+    flex-direction: column;
     background-color: var(--color-black);
     width: 100vw;
     padding: 3vw;
 }
+
 .education-overHead {
     display: flex;
     justify-content: flex-start;
-    align-items:center;
-    flex-direction:  row;
+    align-items: center;
+    flex-direction: row;
 }
 
 .education-row {
@@ -29,13 +30,16 @@
     cursor: pointer;
     border-width: 2px;
 }
+
 .school-image {
     height: 24vh;
 }
+
 .education-header {
     color: var(--color-white);
     margin-left: 20px;
 }
+
 .white {
     color: var(--color-white);
 }
@@ -46,18 +50,19 @@
         height: calc(100vh - var(--navbar-height));
         display: flex;
         justify-content: space-between;
-        align-items:flex-start;
-        flex-direction:  column;
+        align-items: flex-start;
+        flex-direction: column;
         background-color: var(--color-black);
         width: 100vw;
         padding: 3vw;
     }
 
-   .education-row {
-       flex-direction: column;
-       padding-bottom: 4vw;
-   }
-   .school-image {
-    height: 20vh;
+    .education-row {
+        flex-direction: column;
+        padding-bottom: 4vw;
+    }
+
+    .school-image {
+        height: 20vh;
     }
 }
