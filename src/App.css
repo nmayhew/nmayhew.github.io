@@ -5,10 +5,13 @@
   --deep-orange: #CC8500;
   --color-black: #090909;
   --color-white: #F8F9FA;
+  --color-darkcambridgeblue: #59886F;
+  --color-cambridgeblue: #8FB9A8;
   --navbar-height: 70px;
   --border-radius: 8px;
   background-color: var(--color-black);
 }
+
 .app {
   display: flex;
   background-color: var(--color-black);
@@ -16,6 +19,7 @@
   min-height: 100vh;
   overflow: hidden;
 }
+
 .ant-popover-inner {
   border-radius: 20px;
 }
@@ -23,10 +27,12 @@
 .ant-modal-content {
   border-radius: 20px;
 }
+
 .ant-modal-header {
   border-top-left-radius: 20px;
   border-top-right-radius: 20px;
 }
+
 h1,
 h2,
 h3 {
@@ -68,14 +74,17 @@ a:hover {
   opacity: 0;
   transform: scale(0.9);
 }
+
 .fade-enter-active {
   opacity: 1;
   transform: translateX(0);
   transition: opacity 300ms, transform 300ms;
 }
+
 .fade-exit {
   opacity: 1;
 }
+
 .fade-exit-active {
   opacity: 0;
   transform: scale(0.9);
@@ -83,8 +92,8 @@ a:hover {
 }
 
 mark {
-  background-color: var(--deep-orange);
-  color: var(--color-white);
+  background-color: var(--color-cambridgeblue);
+  color: var(--color-black);
   border-radius: 10px;
   padding: 0px;
 }
@@ -95,15 +104,15 @@ mark {
     line-height: 1.2;
   }
 
-h1,
-h2,
-h3 {
-  font-family: "Public_Sans";
-  margin: 0;
-  font-size: 20px;
-  line-height: 1.4;
-  color: currentColor;
-}
+  h1,
+  h2,
+  h3 {
+    font-family: "Public_Sans";
+    margin: 0;
+    font-size: 20px;
+    line-height: 1.4;
+    color: currentColor;
+  }
 }
 
 
@@ -113,15 +122,15 @@ h3 {
     line-height: 1.3;
   }
 
-h1,
-h2,
-h3 {
-  font-family: "Public_Sans";
-  margin: 0;
-  font-size: 20px;
-  line-height: 1.5;
-  color: currentColor;
-}
+  h1,
+  h2,
+  h3 {
+    font-family: "Public_Sans";
+    margin: 0;
+    font-size: 20px;
+    line-height: 1.5;
+    color: currentColor;
+  }
 }
 
 
@@ -129,20 +138,21 @@ h3 {
   :root {
     --navbar-height: 100px;
   }
+
   p {
     font-size: 16px;
     line-height: 1.3;
   }
-  
-h1,
-h2,
-h3 {
-  font-family: "Public_Sans";
-  margin: 0;
-  font-size: 20px;
-  line-height: 1.5;
-  color: currentColor;
-}
+
+  h1,
+  h2,
+  h3 {
+    font-family: "Public_Sans";
+    margin: 0;
+    font-size: 20px;
+    line-height: 1.5;
+    color: currentColor;
+  }
 }
 
 @media only screen and (min-width: 1900px) {
@@ -152,13 +162,13 @@ h3 {
   }
 
 
-h1,
-h2,
-h3 {
-  font-family: "Public_Sans";
-  margin: 0;
-  font-size: 36px;
-  line-height: 1.8;
-  color: currentColor;
-}
+  h1,
+  h2,
+  h3 {
+    font-family: "Public_Sans";
+    margin: 0;
+    font-size: 36px;
+    line-height: 1.8;
+    color: currentColor;
+  }
 }

@@ -1,12 +1,12 @@
 .intro {
-    height: calc(100vh - var(--navbar-height));
-    display: flex;
-    justify-content: space-around;
-    align-items: center;
-    background-color: var(--color-black);
-    width: 100vw;
-    align-self: center; 
-    flex-direction: row;
+  height: calc(100vh - var(--navbar-height));
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  background-color: var(--color-black);
+  width: 100vw;
+  align-self: center;
+  flex-direction: row;
 }
 
 .intro-text {
@@ -24,37 +24,37 @@
 
 .intro-photo {
   color: var(--color-white);
-  border-radius: 80px;
-  width: 35vw;
+  border-radius: 30px;
+  width: 50vw;
 
 }
 
 @media only screen and (max-width: 450px) {
-.intro-photo {
-  color: var(--color-white);
-  border-radius: 80px;
-  width: 0vw;
-}
+  .intro-photo {
+    color: var(--color-white);
+    border-radius: 80px;
+    width: 0vw;
+  }
 
-.intro-text {
-  color: var(--color-white);
-  text-align: center;
-  width: 100vw;
-}
+  .intro-text {
+    color: var(--color-white);
+    text-align: center;
+    width: 100vw;
+  }
 
 }
 
 @media only screen and (min-width: 450px) and (max-width: 768px) {
-    .intro-photo {
-      color: var(--color-white);
-      border-radius: 80px;
-      width: 40vw;
-    }
-  
+  .intro-photo {
+    color: var(--color-white);
+    border-radius: 80px;
+    width: 40vw;
+  }
+
   .intro-text {
     color: var(--color-white);
     text-align: center;
     width: 45vw;
   }
-  
-  }
+
+}

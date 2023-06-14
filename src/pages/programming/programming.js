@@ -1,41 +1,42 @@
 import "./programming.css";
 import rowingPhoto from '../../assets/backdrop/backdrop.JPG';
 import MaterialIcon from 'material-icons-react';
-import { Animator, ScrollContainer, ScrollPage, batch, FadeIn, MoveIn} from "react-scroll-motion";
+import { Animator, ScrollContainer, ScrollPage, batch, FadeIn, MoveIn } from "react-scroll-motion";
 import { useMediaQuery } from 'react-responsive';
+import CV from '../../assets/cv/CVWebsitePublished.pdf'
 
 function Programming() {
   const isMobile = useMediaQuery({ query: '(max-width: 450px)' })
   return (
     <ScrollContainer snap="none">
-    <ScrollPage page={4}>
-    <div id="programming" className="programming">
-        <div className="programming-overHead">
-        {isMobile && <MaterialIcon icon="code" size={40} color='#FFFFFF'/>}
-        {!isMobile && <MaterialIcon icon="code" size={55} color='#FFFFFF'/>}
+      <ScrollPage page={4}>
+        <div id="programming" className="programming">
+          <div className="programming-overHead">
+            {isMobile && <MaterialIcon icon="code" size={40} color='#FFFFFF' />}
+            {!isMobile && <MaterialIcon icon="code" size={55} color='#FFFFFF' />}
             <h1 >
-            <a className="programming-header"
-            href="https://docs.google.com/document/d/e/2PACX-1vQlo58VwXoxyS-fTVbCtztSdIDBOUDKOmLqn_7gl1Un2MXAtkcf7Zn6tPAms8tFo0mflQRUW48-KcKZ/pub">
+              <a className="programming-header"
+                href="https://docs.google.com/document/d/1NCGYl5js3ivfhzCUfKkWKveYvtpqMtz-RgT6pUw0JGo/edit?usp=sharing">
                 Resume
-            </a>
+              </a>
             </h1>
-        </div>
-        <div className="programming-content">
-              <iframe
-              marginwidth="0"
-              marginheight="0"
+          </div>
+          <div className="programming-content">
+            <embed src={CV}
+              type="application/pdf"
               className="programming-progress"
-              title="cv"
-              frameBorder="0"
-                src="https://docs.google.com/document/d/e/2PACX-1vQlo58VwXoxyS-fTVbCtztSdIDBOUDKOmLqn_7gl1Un2MXAtkcf7Zn6tPAms8tFo0mflQRUW48-KcKZ/pub?embedded=true">  
-                </iframe>
-                <Animator className="programming-photo" animation={batch(FadeIn(), MoveIn(400, 0, 0, 0))}>
-                <img src={rowingPhoto} alt="Racing at Stanford" className="programming-photo"/>    
-              </Animator>
-        </div> 
+              marginwidth="0"
+              marginheight="0">
 
-    </div>
-    </ScrollPage>
+            </embed>
+
+            <Animator className="programming-photo" animation={batch(FadeIn(), MoveIn(400, 0, 0, 0))}>
+              <img src={rowingPhoto} alt="Racing at Stanford" className="programming-photo" />
+            </Animator>
+          </div>
+
+        </div>
+      </ScrollPage>
     </ScrollContainer>
   );
 }

@@ -2,17 +2,18 @@
     height: calc(100vh - var(--navbar-height));
     display: flex;
     justify-content: space-around;
-    align-items:flex-start;
-    flex-direction:  column;
+    align-items: flex-start;
+    flex-direction: column;
     background-color: var(--color-black);
     width: 100vw;
     padding: 3vw;
 }
+
 .project-overHead {
     display: flex;
     justify-content: flex-start;
     align-items: center;
-    flex-direction:  row;
+    flex-direction: row;
 }
 
 .project-row {
@@ -26,24 +27,26 @@
 }
 
 .project-logo {
-    height:55px
+    height: 55px
 }
 
 .project-image {
-    max-height: 15vh;
+    max-height: 30svh;
     border-radius: 10px;
     max-width: 25vw;
+    width: 10vw;
 }
 
 .project-image-smart {
-    width: 12vw;
-    border-radius: 4vw;
+    width: 10vw;
+    border-radius: 3vw;
 }
 
 .project-header {
     color: var(--color-white);
     margin-left: 20px;
 }
+
 .white {
     color: var(--color-white);
 }
@@ -54,15 +57,16 @@
     }
 
     .project-logo {
-        height:40px
+        height: 40px
     }
+
     .project-image {
         max-height: 70px;
         max-width: 150px;
     }
-    
+
     .project-image-smart {
         width: 70px;
         border-radius: 20px;
     }
- }
+}
