@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/static/css/main.c2442f61.css",
-    "main.js": "/static/js/main.00c02b6f.js",
+    "main.js": "/static/js/main.a55a373e.js",
     "static/js/787.54872dfc.chunk.js": "/static/js/787.54872dfc.chunk.js",
     "static/media/carousal.JPG": "/static/media/carousal.13cf1be40a1e8fa81a0a.JPG",
     "static/media/me.JPG": "/static/media/me.6265e514bb21cc203edb.JPG",
@@ -14,6 +14,7 @@
     "static/media/Cambridge.png": "/static/media/Cambridge.0edb14d407303dc3aa98.png",
     "static/media/me_back.JPG": "/static/media/me_back.4931051d294dada23a49.JPG",
     "static/media/carousal5.JPG": "/static/media/carousal5.88754fd631992849cf4d.JPG",
+    "static/media/mercedes.png": "/static/media/mercedes.a859e07286edf5e57e87.png",
     "static/media/CVWebsitePublished.pdf": "/static/media/CVWebsitePublished.41a2e85d9a844594ef45.pdf",
     "static/media/SmartRow.png": "/static/media/SmartRow.f03d4a65bd5012a99e6d.png",
     "static/media/Shell_logo.png": "/static/media/Shell_logo.89ccff17940b1a2719cc.png",
@@ -22,15 +23,14 @@
     "static/media/LatymerWhite.png": "/static/media/LatymerWhite.27102c1311d0e21153f5.png",
     "static/media/amazonWhite.png": "/static/media/amazonWhite.de51da8124392581d4cc.png",
     "static/media/fullMeasure.png": "/static/media/fullMeasure.e8233d56658e28c5ca28.png",
-    "static/media/mercedes.png": "/static/media/mercedes.a00c0259ab41bfdcde0c.png",
     "static/media/latymerWhite.png": "/static/media/latymerWhite.74e3bda96bab5423f8ba.png",
     "index.html": "/index.html",
     "main.c2442f61.css.map": "/static/css/main.c2442f61.css.map",
-    "main.00c02b6f.js.map": "/static/js/main.00c02b6f.js.map",
+    "main.a55a373e.js.map": "/static/js/main.a55a373e.js.map",
     "787.54872dfc.chunk.js.map": "/static/js/787.54872dfc.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.c2442f61.css",
-    "static/js/main.00c02b6f.js"
+    "static/js/main.a55a373e.js"
   ]
 }
