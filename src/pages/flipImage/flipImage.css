@@ -1,0 +1,45 @@
+.flip-image {
+    position: relative;
+    width: 55px;
+    height: 55px;
+    perspective: 1000px;
+}
+
+.front,
+.back {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    backface-visibility: hidden;
+    transition: transform 0.5s;
+    border-radius: 50%;
+    overflow: hidden;
+}
+
+.front img,
+.back img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.front {
+    transform: rotateY(0deg);
+}
+
+.back {
+    transform: rotateY(180deg);
+}
+
+.flip-image.hovered {
+    cursor: pointer;
+}
+
+.flip-image.hovered .front {
+    transform: rotateY(-180deg);
+
+}
+
+.flip-image.hovered .back {
+    transform: rotateY(0deg);
+}

@@ -1,0 +1,24 @@
+.image-carousel {
+    position: relative;
+    width: 100%;
+    overflow: hidden;
+    border-radius: 80px;
+}
+
+.image-carousel-container {
+    display: flex;
+    width: 100%;
+}
+
+.image-carousel img {
+    flex-shrink: 0;
+    width: 100%;
+    object-fit: cover;
+    transition: transform 5s ease-in-out;
+    /* Adjust the border-radius as needed */
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.9);
+}
+
+.image-carousel-container.scroll {
+    transform: translateX(-100%);
+}

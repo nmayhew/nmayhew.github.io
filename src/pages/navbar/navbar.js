@@ -1,7 +1,6 @@
 import "./navbar.css";
 import { Link } from "react-scroll";
-import { Avatar } from 'antd';
-import me from "../../assets/me/me.JPG";
+import FlipImage from "../flipImage/flipImage";
 import { useMediaQuery } from 'react-responsive';
 
 function scroll(scrollDistanceInPx) {
@@ -13,7 +12,7 @@ function Navbar() {
   return (
     <div className="navbar">
       <div className="navbar-links">
-        {!isMobile && <Avatar size={60} src={me} alt="Logo" shape="circle" />}
+        {!isMobile && <FlipImage />}
         <Link
           to="intro"
           className="navbar-link"
@@ -75,6 +74,8 @@ function Navbar() {
           >
             <p className="navbar-text">Resume</p>
           </Link>
+
+
         }
       </div>
     </div>

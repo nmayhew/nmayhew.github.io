@@ -1,13 +1,16 @@
 import "./intro.css";
-import rowingPhoto from '../../assets/backdrop/BoatRaceOverview.JPG';
 import linkedIn from '../../assets/logos/LinkedIn.png';
 import GitHub from '../../assets/logos/GitHub.png';
 import { Animator, ScrollContainer, ScrollPage, batch, Fade, Move } from "react-scroll-motion";
 import { useMediaQuery } from 'react-responsive';
 import { Avatar } from 'antd';
 import me from "../../assets/me/me.JPG";
+import { rowingPhoto, carousal2, carousal3, carousal4, carousal5, carousal } from '../../assets/backdrop';
+
+import ImageCarousel from "../imgCarousel/ImageCarousel";
 
 function Intro() {
+  const images = [rowingPhoto, carousal, carousal2, carousal3, carousal4, carousal5]; // Add the paths to your images
   const isMobile = useMediaQuery({ query: '(max-width: 450px)' })
   const isTablet = useMediaQuery({ query: '(min-width: 450px) and (max-width: 790px) ' })
 
@@ -32,9 +35,11 @@ function Intro() {
             <a href='https://github.com/nmayhew'><img src={GitHub} alt="GitHub-logo" className="intro-logo" /></a>
             {isMobile && <Avatar size={70} src={me} alt="Logo" shape="circle" />}
           </div>
-          <Animator className="intro-photo" animation={batch(Fade(), Move(400, 0, 400, 0))}>
-            <img src={rowingPhoto} alt="Me Racing in Washington against UW" className="intro-photo" />
-          </Animator>
+          <div className="intro-photo">
+            <Animator className="intro-photo" animation={batch(Fade(), Move(400, 0, 400, 0))}>
+              <ImageCarousel images={images} />
+            </Animator>
+          </div>
         </div>
 
       </ScrollPage>
