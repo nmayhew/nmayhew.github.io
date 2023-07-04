@@ -23,7 +23,7 @@ function Intro() {
             <br></br>
             <p>I'm a <mark>&nbsp;Cambridge&nbsp;</mark> graduate who won the <mark>&nbsp;2023 Men's Boat Race&nbsp;</mark> while studying a Masters in <mark>&nbsp;Management&nbsp;</mark>.
               <br></br><br></br>
-              Last year, I completed my undergraduate from <mark>&nbsp;Stanford&nbsp;</mark> University (4.05 GPA), achieving the <mark>&nbsp;highest GPA&nbsp;</mark> of a male graduating Student-Athlete and captaining Men's Varsity Rowing.
+              Last year, I completed my undergraduate from <mark>&nbsp;Stanford&nbsp;</mark> University (4.05 GPA) in <mark>&nbsp;Computer Science&nbsp;</mark>, achieving the <mark>&nbsp;highest GPA&nbsp;</mark> of a male graduating Student-Athlete and captaining Men's Varsity Rowing.
               <br></br><br></br>
               My internships at <mark>&nbsp;Amazon&nbsp;</mark>, <mark>&nbsp;AB InBev&nbsp;</mark> and startups have created a diverse generalist skillset including programming, public speaking and finance.
               <br></br><br></br>
