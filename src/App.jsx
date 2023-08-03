@@ -6,7 +6,7 @@ import Work from "./pages/work/work";
 import Project from "./pages/projects/projects";
 import Programming from "./pages/programming/programming";
 import ReactGA from 'react-ga';
-import { ScrollContainer } from "react-scroll-motion";
+
 function App() {
   ReactGA.initialize('UA-232337955-1');
   ReactGA.pageview(window.location.pathname + window.location.search);
@@ -29,13 +29,11 @@ function App() {
   return (
     <div className="app">
       <div className="content">
-        <ScrollContainer >
-          <Intro />
-          <Education />
-          <Work />
-          <Project />
-          <Programming />
-        </ScrollContainer>
+        <Intro />
+        <Education />
+        <Work />
+        <Project />
+        <Programming />
       </div>
       <Navbar />
 
