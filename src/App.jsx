@@ -5,11 +5,9 @@ import Education from "./pages/education/education";
 import Work from "./pages/work/work";
 import Project from "./pages/projects/projects";
 import Programming from "./pages/programming/programming";
-import ReactGA from 'react-ga';
 import { ScrollContainer } from "react-scroll-motion";
+
 function App() {
-  ReactGA.initialize('UA-232337955-1');
-  ReactGA.pageview(window.location.pathname + window.location.search);
   if (window.DeviceOrientationEvent) {
     window.addEventListener("deviceorientation", function (event) {
       // alpha: rotation around z-axis
