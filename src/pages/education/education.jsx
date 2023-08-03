@@ -1,5 +1,5 @@
 import "./education.css";
-import MaterialIcon from 'material-icons-react';
+import school from '../../assets/schools/school.svg';
 import Stanford from '../../assets/schools/Stanford.png';
 import Cambridge from '../../assets/schools/Cambridge.png';
 import Latymer from '../../assets/schools/LatymerWhite.png';
@@ -47,8 +47,7 @@ function Education() {
     <ScrollPage>
       <div id="education" className="education">
         <div className="education-overHead">
-          {isMobile && <MaterialIcon icon="school" size={45} color='#FFFFFF' />}
-          {!isMobile && <MaterialIcon icon="school" size={60} color='#FFFFFF' />}
+          <img src={school} alt="School Icon" />
           <h1 className="education-header">
             Education
           </h1>

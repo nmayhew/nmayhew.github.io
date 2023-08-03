@@ -1,18 +1,15 @@
 import "./programming.css";
 import rowingPhoto from '../../assets/backdrop/backdrop.JPG';
-import MaterialIcon from 'material-icons-react';
+import programming from '../../assets/cv/programming.svg';
 import { Animator, ScrollPage, batch, FadeIn, MoveIn } from "react-scroll-motion";
-import { useMediaQuery } from 'react-responsive';
 import CV from '../../assets/cv/CVWebsitePublished.pdf'
 
 function Programming() {
-  const isMobile = useMediaQuery({ query: '(max-width: 450px)' })
   return (
     <ScrollPage>
       <div id="programming" className="programming">
         <div className="programming-overHead">
-          {isMobile && <MaterialIcon icon="code" size={40} color='#FFFFFF' />}
-          {!isMobile && <MaterialIcon icon="code" size={55} color='#FFFFFF' />}
+          <img src={programming} alt="Code Icon" />
           <h1 >
             <a className="programming-header"
               href="https://docs.google.com/document/d/1NCGYl5js3ivfhzCUfKkWKveYvtpqMtz-RgT6pUw0JGo/edit?usp=sharing">
