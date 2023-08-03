@@ -24,8 +24,7 @@ function Programming() {
           <embed src={CV}
             type="application/pdf"
             className="programming-progress"
-            marginWidth="0"
-            marginHeight="0">
+            marginWidth="0">
 
           </embed>
 
