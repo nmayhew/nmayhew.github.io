@@ -1,4 +1,4 @@
-@import '~antd/dist/antd.css';
+@import 'antd/dist/reset.css';
 
 :root {
   --color-orange: #FFB11F;
@@ -111,24 +111,6 @@ mark {
     margin: 0;
     font-size: 20px;
     line-height: 1.4;
-    color: currentColor;
-  }
-}
-
-
-@media only screen and (min-width: 450px) and (max-width: 768px) {
-  p {
-    font-size: 16px;
-    line-height: 1.3;
-  }
-
-  h1,
-  h2,
-  h3 {
-    font-family: "Public_Sans";
-    margin: 0;
-    font-size: 20px;
-    line-height: 1.5;
     color: currentColor;
   }
 }

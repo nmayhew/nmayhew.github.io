@@ -4,7 +4,7 @@ import Stanford from '../../assets/schools/Stanford.png';
 import Cambridge from '../../assets/schools/Cambridge.png';
 import Latymer from '../../assets/schools/LatymerWhite.png';
 import { Popover } from 'antd';
-import { Animator, ScrollContainer, ScrollPage, batch, Fade, Move, Zoom } from "react-scroll-motion";
+import { Animator, ScrollPage, batch, Fade, Move, Zoom } from "react-scroll-motion";
 import { useMediaQuery } from 'react-responsive';
 
 const CamHeader = (
@@ -44,63 +44,61 @@ const Latycontent = (
 function Education() {
   const isMobile = useMediaQuery({ query: '(max-width: 450px)' })
   return (
-    <ScrollContainer snap="none">
-      <ScrollPage page={1}>
-        <div id="education" className="education">
-          <div className="education-overHead">
-            {isMobile && <MaterialIcon icon="school" size={45} color='#FFFFFF' />}
-            {!isMobile && <MaterialIcon icon="school" size={60} color='#FFFFFF' />}
-            <h1 className="education-header">
-              Education
-            </h1>
-          </div>
-          <div className="education-row">
-            <Animator animation={batch(Fade(), Move(-400, 0, -400, 0), Zoom(0.1, 1))}>
-              {isMobile && <Popover placement="top" title={CamHeader} content={Camcontent}>
-                <div className="school">
-                  <img src={Cambridge} alt="Cambridge Logo" className="school-image"></img>
-
-                </div>
-              </Popover>
-              }
-              {!isMobile && <Popover placement="topLeft" title={CamHeader} content={Camcontent}>
-                <div className="school">
-                  <img src={Cambridge} alt="Cambridge Logo" className="school-image"></img>
-
-                </div>
-              </Popover>
-              }
-
-            </Animator>
-            <Animator animation={batch(Fade(), Zoom(0.1, 1))}>
-              <Popover placement="top" title={StanHeader} content={Stancontent}>
-                <div className="school">
-                  <img src={Stanford} alt="Stanford Logo" className="school-image"></img>
-                </div>
-              </Popover>
-            </Animator>
-            <Animator animation={batch(Fade(), Move(400, 0, 400, 0), Zoom(0.1, 1))}>
-              {!isMobile && <Popover placement="topRight" title={LatyHeader} content={Latycontent}>
-
-                <div className="school">
-                  <img src={Latymer} alt="Latymer Logo" className="school-image"></img>
-
-                </div>
-
-              </Popover>
-              }
-              {isMobile && <Popover placement="top" title={LatyHeader} content={Latycontent}>
-                <div className="school">
-                  <img src={Latymer} alt="Latymer Logo" className="school-image"></img>
-                </div>
-
-              </Popover>
-              }
-            </Animator>
-          </div>
+    <ScrollPage>
+      <div id="education" className="education">
+        <div className="education-overHead">
+          {isMobile && <MaterialIcon icon="school" size={45} color='#FFFFFF' />}
+          {!isMobile && <MaterialIcon icon="school" size={60} color='#FFFFFF' />}
+          <h1 className="education-header">
+            Education
+          </h1>
         </div>
-      </ScrollPage>
-    </ScrollContainer>
+        <div className="education-row">
+          <Animator animation={batch(Fade(), Move(-400, 0, -400, 0), Zoom(0.1, 1))}>
+            {isMobile && <Popover placement="top" title={CamHeader} content={Camcontent}>
+              <div className="school">
+                <img src={Cambridge} alt="Cambridge Logo" className="school-image"></img>
+
+              </div>
+            </Popover>
+            }
+            {!isMobile && <Popover placement="topLeft" title={CamHeader} content={Camcontent}>
+              <div className="school">
+                <img src={Cambridge} alt="Cambridge Logo" className="school-image"></img>
+
+              </div>
+            </Popover>
+            }
+
+          </Animator>
+          <Animator animation={batch(Fade(), Zoom(0.1, 1))}>
+            <Popover placement="top" title={StanHeader} content={Stancontent}>
+              <div className="school">
+                <img src={Stanford} alt="Stanford Logo" className="school-image"></img>
+              </div>
+            </Popover>
+          </Animator>
+          <Animator animation={batch(Fade(), Move(400, 0, 400, 0), Zoom(0.1, 1))}>
+            {!isMobile && <Popover placement="topRight" title={LatyHeader} content={Latycontent}>
+
+              <div className="school">
+                <img src={Latymer} alt="Latymer Logo" className="school-image"></img>
+
+              </div>
+
+            </Popover>
+            }
+            {isMobile && <Popover placement="top" title={LatyHeader} content={Latycontent}>
+              <div className="school">
+                <img src={Latymer} alt="Latymer Logo" className="school-image"></img>
+              </div>
+
+            </Popover>
+            }
+          </Animator>
+        </div>
+      </div>
+    </ScrollPage>
   );
 }
 
