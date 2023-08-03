@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/static/css/main.9e4da795.css",
-    "main.js": "/static/js/main.63e1ce60.js",
+    "main.js": "/static/js/main.752b063b.js",
     "static/media/carousal.JPG": "/static/media/carousal.13cf1be40a1e8fa81a0a.JPG",
     "static/media/me.JPG": "/static/media/me.6265e514bb21cc203edb.JPG",
     "static/media/backdrop.JPG": "/static/media/backdrop.63ffc82861b2d01f1bbe.JPG",
@@ -25,10 +25,10 @@
     "static/media/latymerWhite.png": "/static/media/latymerWhite.74e3bda96bab5423f8ba.png",
     "index.html": "/index.html",
     "main.9e4da795.css.map": "/static/css/main.9e4da795.css.map",
-    "main.63e1ce60.js.map": "/static/js/main.63e1ce60.js.map"
+    "main.752b063b.js.map": "/static/js/main.752b063b.js.map"
   },
   "entrypoints": [
     "static/css/main.9e4da795.css",
-    "static/js/main.63e1ce60.js"
+    "static/js/main.752b063b.js"
   ]
 }
