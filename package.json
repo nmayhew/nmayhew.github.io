@@ -1,7 +1,7 @@
 {
   "homepage": "http://nmayhew.github.io",
   "name": "nmayhew.github.io",
-  "version": "0.1.0",
+  "version": "1.1.0",
   "private": true,
   "dependencies": {
     "antd": "^5.8.1",
