@@ -13,9 +13,16 @@
     "react-scroll": "^1.8.9",
     "react-scroll-motion": "^0.3.2"
   },
+  "devDependencies": {
+    "@vitejs/plugin-react": "^4.0.4",
+    "vite": "^4.4.8",
+    "typescript": "^5.1.6",
+    "@types/react": "^18.2.18",
+    "@types/react-dom": "^18.2.7"
+  },
   "scripts": {
     "start": "vite",
-    "build": "vite build",
+    "build": "tsc && vite build",
     "serve": "vite preview",
     "predeploy": "npm run build",
     "deploy": "gh-pages master -d build"
@@ -37,9 +44,5 @@
       "last 1 firefox version",
       "last 1 safari version"
     ]
-  },
-  "devDependencies": {
-    "@vitejs/plugin-react": "^4.0.4",
-    "vite": "^4.4.8"
   }
 }
