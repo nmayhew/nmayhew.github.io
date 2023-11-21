@@ -23,9 +23,9 @@ function Intro() {
           <p>
             I'm a <mark>&nbsp;Product Engineer&nbsp;</mark> at Opvia.
             <br></br><br></br>
-            I have a Masters in Management from <mark>&nbsp;Cambridge&nbsp;</mark> where I won the <mark>&nbsp;2023 Men's Boat Race&nbsp;</mark>.
+            I completed my Master's in Management at <mark>&nbsp;Cambridge&nbsp;</mark> where I won the <mark>&nbsp;2023 Men's Boat Race&nbsp;</mark>.
             <br></br><br></br>
-            My bachelor's was from <mark>&nbsp;Stanford&nbsp;</mark> (4.05 GPA) in <mark>&nbsp;Computer Science&nbsp;</mark>, achieving the <mark>&nbsp;highest GPA&nbsp;</mark> of a male graduating Student-Athlete and captaining Men's Varsity Rowing.
+            My bachelor's was in <mark>&nbsp;Computer Science&nbsp;</mark> from <mark>&nbsp;Stanford&nbsp;</mark>, where I won the <mark>&nbsp;highest GPA (4.05 GPA)&nbsp;</mark> of a male graduating Student-Athlete and captained Men's Varsity Rowing.
             <br></br><br></br>
             My work at startups, <mark>&nbsp;Amazon&nbsp;</mark>, <mark>&nbsp;AB InBev&nbsp;</mark> have created a diverse skillset including programming, public speaking and finance.
           </p>
