@@ -27,19 +27,19 @@
 }
 
 .project-logo {
-    height: 55px
+    height: 45px
 }
 
 .project-image {
-    max-height: 30vh;
-    border-radius: 10px;
-    max-width: 25vw;
-    width: 15vw;
+    max-height: 20vh;
+    border-radius: 7px;
+    max-width: 28vw;
+    width: 10vw;
 }
 
 .project-image-smart {
-    width: 15vw;
-    border-radius: 5vw;
+    width: 8vw;
+    border-radius: 2.5vw;
 }
 
 .project-header {

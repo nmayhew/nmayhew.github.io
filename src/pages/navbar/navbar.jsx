@@ -61,7 +61,7 @@ function Navbar() {
         >
           <p className="navbar-text">Projects</p>
         </Link>
-        {!isMobile &&
+        {/* {!isMobile &&
           <Link
             to="programming"
             className="navbar-link"
@@ -73,7 +73,7 @@ function Navbar() {
             duration={scroll}
           >
             <p className="navbar-text">Resume</p>
-          </Link>
+          </Link> */}
 
 
         }

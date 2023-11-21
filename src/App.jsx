@@ -16,7 +16,7 @@ function App() {
           <Education />
           <Work />
           <Project />
-          <Programming />
+          {/* <Programming /> */}
         </ScrollContainer>
       </div>
       <Navbar />

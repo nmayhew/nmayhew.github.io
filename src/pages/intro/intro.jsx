@@ -21,9 +21,11 @@ function Intro() {
           <h1>Hi, I'm Nick Mayhew</h1>
           <br></br>
           <p>
-            I'm a <mark>&nbsp;Cambridge&nbsp;</mark> graduate who won the <mark>&nbsp;2023 Men's Boat Race&nbsp;</mark> while studying a Masters in <mark>&nbsp;Management&nbsp;</mark>.
+            I'm a <mark>&nbsp;Product Engineer&nbsp;</mark> at Opvia.
             <br></br><br></br>
-            Last year, I completed my undergraduate from <mark>&nbsp;Stanford&nbsp;</mark> University (4.05 GPA) in <mark>&nbsp;Computer Science&nbsp;</mark>, achieving the <mark>&nbsp;highest GPA&nbsp;</mark> of a male graduating Student-Athlete and captaining Men's Varsity Rowing.
+            I have a Masters in Management from <mark>&nbsp;Cambridge&nbsp;</mark> where I won the <mark>&nbsp;2023 Men's Boat Race&nbsp;</mark>.
+            <br></br><br></br>
+            My bachelor's was from <mark>&nbsp;Stanford&nbsp;</mark> (4.05 GPA) in <mark>&nbsp;Computer Science&nbsp;</mark>, achieving the <mark>&nbsp;highest GPA&nbsp;</mark> of a male graduating Student-Athlete and captaining Men's Varsity Rowing.
             <br></br><br></br>
             My work at startups, <mark>&nbsp;Amazon&nbsp;</mark>, <mark>&nbsp;AB InBev&nbsp;</mark> have created a diverse skillset including programming, public speaking and finance.
           </p>
