@@ -73,10 +73,10 @@ function Navbar() {
             duration={scroll}
           >
             <p className="navbar-text">Resume</p>
-          </Link> */}
+          </Link> }*/}
 
 
-        }
+
       </div>
     </div>
   );
