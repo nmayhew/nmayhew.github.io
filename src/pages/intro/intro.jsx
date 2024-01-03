@@ -27,7 +27,7 @@ function Intro() {
             <br></br><br></br>
             My bachelor's was in <mark>&nbsp;Computer Science&nbsp;</mark> from <mark>&nbsp;Stanford&nbsp;</mark>, where I won the <mark>&nbsp;highest GPA (4.05 GPA)&nbsp;</mark> of a male graduating Student-Athlete and captained Men's Varsity Rowing.
             <br></br><br></br>
-            My work at startups, <mark>&nbsp;Amazon&nbsp;</mark>, <mark>&nbsp;AB InBev&nbsp;</mark> have created a diverse skillset including programming, public speaking and finance.
+            My work at startups, <mark>&nbsp;Amazon&nbsp;</mark>, <mark>&nbsp;AB InBev&nbsp;</mark> have created a diverse skillset including programming, product and leadership.
           </p>
           <br></br><br></br>
           <br></br>

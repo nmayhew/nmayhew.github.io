@@ -166,7 +166,7 @@ function Work() {
 
           <Modal title={<h1>UnderMyWing - Product Engineer</h1>} open={isModalVisible5} footer={null} onCancel={handleCancel5} >
             <div>
-              <p>Whilst on medical leave, I created UnderMyWing with colleagues. UnderMyWing automatically generates, marks, and analysse classroom materials and questions. We combine this with school data to calculate individual student ability levels and deliver tailored education for every student without increasing teacher workloads. Find more on our <a href='https://umw-learning.com'>website</a>! </p>
+              <p>Whilst on medical leave, I created UnderMyWing with colleagues. UnderMyWing automatically generates, marks, and analysse classroom materials and questions. We combine this with school data to calculate individual student ability levels and deliver tailored education for every student without increasing teacher workloads. </p>
             </div>
           </Modal>
 

@@ -14,7 +14,7 @@ const Camcontent = (
   <div>
     <p>I obtained an MPhil in Management at the Judge Business School while winning the 2023 Boat Race.
     </p>
-    <p>I was a member of Peterhouse, studying Management Consultancy, Strategy, Finance and Economics.</p>
+    <p>I was a student of Peterhouse college, studying Management Consultancy, Strategy, Finance and Economics.</p>
   </div>
 );
 const StanHeader = (
@@ -54,14 +54,14 @@ function Education() {
         </div>
         <div className="education-row">
           <Animator animation={batch(Fade(), Move(-400, 0, -400, 0), Zoom(0.1, 1))}>
-            {isMobile && <Popover placement="top" title={CamHeader} content={Camcontent}>
+            {isMobile && <Popover overlayStyle={{ width: "40vw" }} placement="top" title={CamHeader} content={Camcontent}>
               <div className="school">
                 <img src={Cambridge} alt="Cambridge Logo" className="school-image"></img>
 
               </div>
             </Popover>
             }
-            {!isMobile && <Popover placement="topLeft" title={CamHeader} content={Camcontent}>
+            {!isMobile && <Popover overlayStyle={{ width: "40vw" }} placement="topLeft" title={CamHeader} content={Camcontent}>
               <div className="school">
                 <img src={Cambridge} alt="Cambridge Logo" className="school-image"></img>
 
@@ -71,14 +71,14 @@ function Education() {
 
           </Animator>
           <Animator animation={batch(Fade(), Zoom(0.1, 1))}>
-            <Popover placement="top" title={StanHeader} content={Stancontent}>
+            <Popover overlayStyle={{ width: "40vw" }} placement="top" title={StanHeader} content={Stancontent}>
               <div className="school">
                 <img src={Stanford} alt="Stanford Logo" className="school-image"></img>
               </div>
             </Popover>
           </Animator>
           <Animator animation={batch(Fade(), Move(400, 0, 400, 0), Zoom(0.1, 1))}>
-            {!isMobile && <Popover placement="topRight" title={LatyHeader} content={Latycontent}>
+            {!isMobile && <Popover overlayStyle={{ width: "40vw" }} placement="topRight" title={LatyHeader} content={Latycontent}>
 
               <div className="school">
                 <img src={Latymer} alt="Latymer Logo" className="school-image"></img>
@@ -87,7 +87,7 @@ function Education() {
 
             </Popover>
             }
-            {isMobile && <Popover placement="top" title={LatyHeader} content={Latycontent}>
+            {isMobile && <Popover overlayStyle={{ width: "40vw" }} placement="top" title={LatyHeader} content={Latycontent}>
               <div className="school">
                 <img src={Latymer} alt="Latymer Logo" className="school-image"></img>
               </div>
